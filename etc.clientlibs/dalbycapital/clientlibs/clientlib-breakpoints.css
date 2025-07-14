@@ -1,0 +1,6 @@
+@media only screen and (max-width: 1849px) {
+    html {
+        font-size: clamp(1px, 0.9vw, 17px);
+    }
+}
+

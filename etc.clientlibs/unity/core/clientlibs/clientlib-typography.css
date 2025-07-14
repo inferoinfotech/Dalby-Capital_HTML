@@ -1,0 +1,248 @@
+
+/* FONT 01 - Main Titles */
+@font-face {
+    font-family: 'Grifo';
+    src: url('../../../aaapwa/clientlibs/typography/GrifoTesteM-Bold.woff2') format('woff2'),
+    url('../../../aaapwa/clientlibs/typography/GrifoTesteM-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Benton Sans';
+    src: url('../../../aaapwa/clientlibs/typography/BentonSans-Book.woff2') format('woff2'),
+    url('../../../aaapwa/clientlibs/typography/BentonSans-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Benton Sans', "Helvetica Neue", Helvetica, Ubuntu, "Segoe UI", Verdana, sans-serif;
+}
+
+h1 {
+    color: var(--white);
+    font-size: 6.4rem;
+    letter-spacing: 0.01em;
+    font-family: 'Grifo', sans-serif;
+    line-height: .87;
+}
+
+h2 {
+    color: var(--midnight);
+    font-size: 3.65rem;
+    letter-spacing: 0.01em;
+    font-family: 'Grifo', sans-serif;
+    line-height: .95;
+}
+
+h2.h2_plus {
+    color: var(--midnight);
+    font-size: 3.65rem;
+    letter-spacing: 0.01em;
+    font-family: 'Grifo', sans-serif;
+    line-height: .95;
+    position: relative;
+    padding-top: 3rem;
+}
+
+h2.h2_plus::before {
+    content: '';
+    position: absolute;
+    left: auto;
+    top: 0;
+    background: var(--apple-green);
+    height: 6px;
+    width: 5rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+    color: var(--blue-void);
+    margin-bottom: 2rem;
+}
+
+.hero-content p {
+    color: var(--white);
+    font-size: 1.54rem;
+    width: 40%;
+    margin-top: 2rem;
+    line-height: 1.4;
+}
+
+.sub-title {
+    color: var(--overcast);
+    font-size: .9rem;
+    margin-bottom: 3.5rem;
+    height: 1.55em;
+    display: inline-block;
+
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.sub-title span {
+    position: relative;
+    display: inline-block;
+    will-change: transform, opacity;
+}
+
+p {
+    color: var(--blue-void);
+    font-size: 1rem;
+    line-height: 1.61;
+}
+
+
+.column-content p:not(:last-child) {
+    margin-bottom: 2.5rem;
+}
+
+.b-dark h2 {
+    color: var(--white);
+}
+
+h2.h2_plus.padding-extended {
+    padding-top: 5rem;
+}
+
+.b-dark p {
+    color: var(--white);
+}
+
+.b-dark .sub-title {
+    color: var(--apple-green);
+}
+
+.b-dark .slider.statistical-slider .slide .key-figure {
+    color: var(--white);
+}
+
+.b-dark .slider.statistical-slider .figure-description {
+    color: var(--cloudy-day);
+}
+
+h4 {
+    font-size: 1.4rem;
+    margin-top: 3.4rem;
+    line-height: 1.5;
+}
+
+h2.h2_plus.h2_jumbo.padding-extended {
+    font-size: 5.65rem;
+}
+
+.b-dark h4 {
+    color: var(--white);
+}
+
+.b-dark h3 {
+    color: var(--white);
+}
+
+.td-n span { text-decoration: none !important; }
+
+footer p.sub-title {
+    color: var(--overcast);
+    font-size:.85rem;
+}
+
+footer p { font-size: .9rem; line-height: 2; }
+
+h3.border-top { position: relative; padding-top: 5rem; }
+
+h3.border-top::before {
+    content: '';
+    position: absolute;
+    left: auto;
+    top: 0;
+    background: var(--apple-green);
+    height: 6px;
+    width: 5rem;
+}
+
+h3.border-top-decreased { position: relative; padding-top: 3.4rem; }
+
+h3.border-top::before,
+h3.border-top-decreased::before {
+    content: '';
+    position: absolute;
+    left: auto;
+    top: 0;
+    background: var(--apple-green);
+    height: 6px;
+    width: 5rem;
+}
+
+.h2 {
+    font-family: 'Grifo', sans-serif;
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+    font-size: 2.6rem;
+}
+
+.h2.plus_size {
+    font-size: 3.9rem;
+}
+
+.h2.reduce_size {
+    font-size: 1.125rem;
+    font-family: 'Benton Sans';
+    text-decoration: none;
+    margin-top: 0.5rem;
+    display: inline-block;
+}
+
+a.h3.h3_medium {
+    font-size: 1.55rem;
+}
+
+
+h6 {
+    position: relative;
+}
+
+h6::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -.5rem;
+    width: 100%;
+    height: 1px;
+    background-color: var(--midnight);
+    opacity: 0.1;
+}
+
+h6 {
+    color: var(--blue-void);
+    font-size: 1rem;
+    line-height: 1.61;
+    display: inline-block;
+}
+
+.b-dark .h2 {
+    color: var(--white);
+}
+.compliance-legal p:not(:last-child) {
+    margin-bottom: 2rem;
+}
+h5 {
+    font-size: 1.4rem;
+    margin-top: -1.5rem;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+}
+
+.l-h-2-1 { line-height:2.1; }
+
+.white-top h1 {
+    color: var(--blue-void);
+}
+
+.white-top .hero-content p {
+    color: var(--blue-void);
+    width: 100%;
+}

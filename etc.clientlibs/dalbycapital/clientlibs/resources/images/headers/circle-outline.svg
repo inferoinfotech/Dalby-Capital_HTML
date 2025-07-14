@@ -1,0 +1,8 @@
+<svg width="120" height="120" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="60" cy="60" r="50"
+            fill="transparent"
+            stroke="white"
+            vector-effect="non-scaling-stroke"
+            stroke-opacity="0.25"
+            stroke-width="1px" />
+</svg>
