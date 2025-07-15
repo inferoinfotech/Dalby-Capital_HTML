@@ -90,12 +90,6 @@
         text-align: center !important;
     }
 
-    .responsive-help-section .link-list .link-item a {
-        padding: 0.9rem 1rem;
-        margin-bottom: 0.7rem;
-        border-radius: 3px;
-    }
-
     .responsive-help-section .link-list .link-item a span {
         font-size: 2rem !important;
         /* increased from 1rem */
