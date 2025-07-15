@@ -1287,7 +1287,7 @@ select[disabled] {
 .hero.hero-style-02 .circle-03 {
     width: 200%;
     height: 200%;
-    position: absolute;
+    position: absolute; 
     left: -80%;
     bottom: -130%;
 }
