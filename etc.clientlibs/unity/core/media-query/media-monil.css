@@ -3276,3 +3276,176 @@
     word-break: break-word !important;
   }
 }
+
+
+/* rsp-legal-compliance start */
+@media (max-width: 768px) {
+  .rsp-legal-compliance .wrapper {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 3rem 0 !important;
+    box-sizing: border-box;
+  }
+
+  .rsp-legal-compliance .column-header {
+    width: 100% !important;
+    padding: 0 !important;
+    margin-bottom: 1.5rem !important;
+    text-align: left !important;
+  }
+  .rsp-legal-compliance .w-5-vw{
+    width: 100% !important;
+  }
+
+  .rsp-legal-compliance .h2_plus {
+    font-size: 3.5rem !important;
+    font-weight: 900 !important;
+    line-height: 1.1 !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .rsp-legal-compliance h4 {
+    font-size: 2.4rem !important;
+    margin-bottom: 1.8rem !important;
+  }
+  .rsp-legal-compliance .legal-section:not(:last-child) {
+    padding-bottom: 0 !important;
+  }
+
+  .rsp-legal-compliance .legal-section p,
+  .rsp-legal-compliance .legal-section ul,
+  .rsp-legal-compliance .legal-section h5,
+  .rsp-legal-compliance .legal-section .sub-title {
+    font-size: 1.9rem !important;
+    line-height: 1.5 !important;
+    color: #17323b;
+  }
+
+  .rsp-legal-compliance .legal-section .sub-title {
+    font-weight: 700 !important;
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .rsp-legal-compliance .legal-section h5 {
+    font-weight: 700 !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .rsp-legal-compliance .legal-section ul {
+    padding-left: 1.6rem !important;
+    margin-top: 1rem !important;
+  }
+
+  .rsp-legal-compliance .legal-section ul li {
+    margin-bottom: 0.8rem !important;
+    color: #17323b;
+  }
+  .rsp-legal-compliance .m-t-inline {
+    margin-top: 0 !important;
+  }
+
+  .rsp-legal-compliance .legal-section ul li a {
+    color: #049199 !important;
+    text-decoration: underline !important;
+  }
+
+  .rsp-legal-compliance .column-content {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border-right: none !important;
+  }
+
+  .rsp-legal-compliance p {
+    margin-top: 0 !important;
+    margin-bottom: 1.2rem !important;
+  }
+}
+
+
+/* rsp-legal-framework start */
+
+@media (max-width: 768px) {
+  .rsp-legal-framework .wrapper {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 3rem 0!important;
+    box-sizing: border-box;
+  }
+
+  .rsp-legal-framework .column-header {
+    width: 100% !important;
+    padding: 0 !important;
+    margin-bottom: 1.5rem !important;
+    text-align: left !important;
+  }
+  .rsp-legal-framework .w-5-vw  {
+    width: 100% !important;
+  }
+  .rsp-legal-framework .m-t-inline  {
+    margin-top: 0 !important;
+  }
+  .rsp-legal-framework .legal-section:not(:last-child)  {
+    padding-bottom: 0 !important;
+  }
+
+  .rsp-legal-framework .h2_plus {
+    font-size: 3.5rem !important;
+    font-weight: 900 !important;
+    line-height: 1.1 !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .rsp-legal-framework h4 {
+    font-size: 2.4rem !important;
+    margin-bottom: 1.8rem !important;
+  }
+
+  .rsp-legal-framework .legal-section p,
+  .rsp-legal-framework .legal-section ul,
+  .rsp-legal-framework .legal-section h5,
+  .rsp-legal-framework .legal-section .sub-title {
+    font-size: 1.9rem !important;
+    line-height: 1.5 !important;
+    color: #17323b;
+  }
+
+  .rsp-legal-framework .legal-section .sub-title {
+    font-weight: 700 !important;
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .rsp-legal-framework .legal-section h5 {
+    font-weight: 700 !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .rsp-legal-framework .legal-section ul {
+    padding-left: 1.6rem !important;
+    margin-top: 1rem !important;
+  }
+
+  .rsp-legal-framework .legal-section ul li {
+    margin-bottom: 0.8rem !important;
+    color: #17323b;
+  }
+
+  .rsp-legal-framework .legal-section ul li a {
+    color: #049199 !important;
+    text-decoration: underline !important;
+  }
+
+  .rsp-legal-framework .column-content {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border-right: none !important;
+  }
+
+  .rsp-legal-framework p {
+    margin-top: 0 !important;
+    margin-bottom: 1.2rem !important;
+  }
+}
