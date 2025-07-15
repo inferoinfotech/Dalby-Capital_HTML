@@ -78,17 +78,22 @@
 
 }
 
-
-/* --- responsive-rpt enhancements --- */
+/* --- responsive-rpt start --- */
 
 @media (max-width: 767px) {
-    .responsive-rpt .rpt-wrapper {
+    .responsive-rpt {
+        justify-content: start !important;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .responsive-rpt .wrapper {
         flex-direction: column;
         padding: 3rem 1rem;
         box-sizing: border-box;
     }
 
-    .responsive-rpt .rpt-header {
+    .responsive-rpt .column-header {
         width: 100% !important;
         text-align: left;
         margin-bottom: 2rem;
@@ -96,7 +101,11 @@
         padding-bottom: 1rem !important;
     }
 
-    .responsive-rpt .rpt-title {
+    .responsive-rpt .column-header .m-t-12 {
+        margin-top: 3rem;
+    }
+
+    .responsive-rpt h2 {
         font-size: 4rem;
         line-height: 1.4;
         font-weight: 800;
@@ -104,7 +113,7 @@
         word-break: break-word;
     }
 
-    .responsive-rpt .rpt-title br {
+    .responsive-rpt h2 br {
         display: none;
     }
 
@@ -116,21 +125,26 @@
         width: 100%;
     }
 
-    .responsive-rpt .rpt-paragraph,
+    .responsive-rpt .column-content,
     .responsive-rpt .rpt-slider {
         flex: 1 1 48%;
         padding: 0;
+        padding-right: 1rem;
         border: none;
         padding-top: 0.5rem !important;
         padding-bottom: 0.5rem !important;
     }
 
-    .responsive-rpt .rpt-paragraph p,
+    .responsive-rpt .column-content p,
     .responsive-rpt .rpt-desc {
         font-size: 2rem;
         line-height: 1.4;
         margin: 0 0 1.5rem 0;
 
+    }
+
+    .responsive-rpt .column-content a {
+        margin-top: 1rem;
     }
 
     .responsive-rpt .rpt-slider .sub-title {
@@ -147,35 +161,58 @@
         font-weight: bold;
     }
 
-    .responsive-rpt .rpt-image {
+    .responsive-rpt .columns {
         width: 100%;
+    }
+
+    .responsive-rpt .column-figure {
+        width: 100% !important;
         padding: 0;
         margin-top: 2rem;
     }
 
-    .responsive-rpt .rpt-img {
+    .responsive-rpt .column-figure img {
         width: 100%;
         display: block;
         object-fit: cover;
         border-radius: 0.4rem;
     }
-}
 
-/* @media (max-width: 480px) {
-    .responsive-rpt .rpt-columns {
-        flex-direction: column;
+    .responsive-rpt ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style: none;
+        font-size: 1.5rem;
     }
 
-    .responsive-rpt .rpt-paragraph,
-    .responsive-rpt .rpt-slider {
+    .responsive-rpt ul li {
+        font-size: 1.5rem !important;
+        padding-left: 2rem !important;
+        margin-right: 2rem !important;
+    }
+
+    .responsive-rpt ul.standard-list.bullets.bullets-left li::before {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .responsive-rpt .sub-title {
+        font-size: 2rem;
+        margin-bottom: 1rem;
         width: 100%;
     }
+}
 
-    .responsive-rpt .rpt-paragraph p,
-    .responsive-rpt .rpt-desc {
-        font-size: 1.9rem;
+@media (max-width: 320px) {
+    .responsive-rpt .column-content {
+        width: 100% !important;
+        flex: none;
     }
-} */
+}
+
+/* --- responsive-rpt end --- */
+
 
 
 /* ==== RESPONSIVE: Why Us Section ==== */
@@ -1116,8 +1153,6 @@
         margin: 0 !important;
         gap: 0 !important;
     }
-
-
     .responsive-business-section .column-header {
         width: 100% !important;
         padding: 0 !important;
@@ -1194,7 +1229,8 @@
 
     .responsive-business-section .colum.column-figure figure {
         width: 100% !important;
-        margin: 0 !important;
+        margin: 2rem !important;
+        max-height: 100% !important;
     }
 
     .responsive-business-section .colum.column-figure {
@@ -2396,9 +2432,6 @@
 }
 
 @media (max-width: 767px) {
-  .rsp-investment-impact .wrapper {
-  }
-
   .rsp-investment-impact .sub-title {
     font-size: 2rem !important;
   }
@@ -2564,5 +2597,187 @@
     width: 4rem !important;
     height: 4rem !important;
     margin-left: 1rem;
+  }
+}
+
+/* /planning-your-financial-future/ start */
+
+/* rsp-financial-plan start */
+
+@media (max-width: 767px) {
+  .rsp-financial-plan .wrapper {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 3rem 0!important;
+    margin: 0 !important;
+    box-sizing: border-box;
+  }
+
+  .rsp-financial-plan .columns {
+    flex-direction: column !important;
+    width: 100% !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    gap: 1rem !important;
+  }
+
+  .rsp-financial-plan .column-header {
+    width: 100% !important;
+    padding: 0 !important;
+    background: none !important;
+    text-align: left !important;
+  }
+
+  .rsp-financial-plan .sub-title {
+    font-size: 2.5rem !important;
+    color: #16323b;
+    margin-bottom: 1rem !important;
+    font-weight: 700;
+  }
+
+  .rsp-financial-plan h2 {
+    font-size: 4.5rem !important;
+    font-weight: 900 !important;
+    line-height: 1.1 !important;
+    margin: 0 0 2rem 0 !important;
+  }
+
+  .rsp-financial-plan .column-content {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+  }
+
+  /* Remove right border on content columns */
+  .rsp-financial-plan .column-content.border-right {
+    border-right: none !important;
+  }
+
+  .rsp-financial-plan .column-content p {
+    font-size: 2.2rem !important;
+    line-height: 1.5 !important;
+    color: #17323b;
+    margin-bottom: 1.8rem !important;
+  }
+
+  .rsp-financial-plan blockquote.statement {
+    font-size: 2.4rem !important;
+    line-height: 1.4 !important;
+    color: #17323b;
+    margin: 1rem 0 2rem 0 !important;
+  }
+
+  .rsp-financial-plan .button {
+    width: 100% !important;
+    max-width: 360px;
+    padding: 1.8rem 2.5rem !important;
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+    border-radius: 3rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    gap: 1.2rem !important;
+    margin-top: 2rem !important;
+  }
+
+  .rsp-financial-plan .button i img {
+    width: 1.6rem !important;
+    height: 1.6rem !important;
+  }
+}
+
+/* rsp-where-next start */
+
+@media (max-width: 767px) {
+  .rsp-where-next .wrapper {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 2.5rem 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+  }
+
+  .rsp-where-next .column-header {
+    width: 100% !important;
+    padding: 0 !important;
+    margin-bottom: 2rem !important;
+    text-align: left !important;
+  }
+ .rsp-where-next .m-t-4-5 {
+    margin-top: 2rem !important;
+  }
+ .rsp-where-next .m-t-inline {
+    margin-top: 2rem !important;
+  }
+  .rsp-where-next .sub-title {
+    font-size: 2.1rem !important;
+    font-weight: 600;
+    margin-bottom: 1rem !important;
+    color: #73E59D; /* Green highlight */
+  }
+
+  .rsp-where-next h2.h2_plus {
+    font-size: 4.5rem !important;
+    font-weight: 900 !important;
+    line-height: 1.1 !important;
+    color: #fff;
+  }
+
+  .rsp-where-next .columns {
+    flex-direction: column !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .rsp-where-next .column-content {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 0 1.5rem 0 !important;
+    box-sizing: border-box;
+    border-right: none !important;
+  }
+
+  .rsp-where-next .column-content p {
+    font-size: 2rem !important;
+    line-height: 1.5 !important;
+    color: #fff;
+  }
+
+  .rsp-where-next .column-content p:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  .rsp-where-next .link-list {
+    margin: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .rsp-where-next .link-list li {
+    font-size: 1.9rem !important;
+    margin-bottom: 1.2rem !important;
+    color: #73E59D;
+  }
+
+  .rsp-where-next .link-list li a {
+    color: #73E59D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: underline;
+    font-weight: 500;
+  }
+
+  .rsp-where-next .link-list li a:hover {
+    text-decoration: none;
+  }
+
+  .rsp-where-next .link-list li img {
+    width: 1.8rem;
+    height: 1.8rem;
   }
 }
