@@ -3,21 +3,21 @@
 /* a well managed portfolio  */
 
 @media screen and (max-width: 767px) {
-  .responsive-portfolio .responsive-portfolio-inner {
+  .responsive-3-column .responsive-3-column-inner {
     flex-direction: column;
     align-items: stretch;
   }
 
-  .responsive-portfolio .column {
+  .responsive-3-column .column {
     width: 100% !important;
     display: block;
   }
 
-  .responsive-portfolio .responsive-column-header {
+  .responsive-3-column .responsive-column-header {
     padding-bottom: 0 !important;
   }
 
-  .responsive-portfolio .column-header .h2_plus {
+  .responsive-3-column .column-header .h2_plus {
     font-size: 4rem;
     line-height: 1.4;
     margin-bottom: 1.5rem !important;
@@ -27,16 +27,28 @@
     font-weight: 800;
   }
 
-  .responsive-portfolio .column-content,
-  .m-t-inline-decrease {
+  .responsive-3-column .column-content,
+  p {
     padding: 0 0 5px 0 !important;
     margin: 0 !important;
   }
 
-  .responsive-portfolio .column-content p {
+  .responsive-3-column .column-content p {
     font-size: 3rem;
     line-height: 1.4;
     width: 100% !important;
+  }
+
+  .responsive-3-column .column-content ul li {
+    font-size: 2.2rem !important;
+    line-height: 1.38;
+    padding-left: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .responsive-3-column .sub-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
   }
 }
 
@@ -49,7 +61,9 @@
   }
 
   .responsive-invest-section .column-header,
-  .responsive-invest-section .columns, .m-t-inline-decrease, .column-figure {
+  .responsive-invest-section .columns,
+  .m-t-inline-decrease,
+  .column-figure {
     width: 100% !important;
     max-width: 100%;
     text-align: left;
@@ -80,6 +94,95 @@
 
   .responsive-invest-section a.button {
     font-size: 2rem;
-    margin:  5px 0 !important;
+    margin: 5px 0 !important;
+  }
+}
+
+/* About Us / Our People  */
+
+@media screen and (max-width: 768px) {
+  .responsive-staff-section .wrapper {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 5vw;
+  }
+
+  .responsive-staff-section .column-header {
+    width: 100% !important;
+    border-right: none !important;
+    padding-right: 0 !important;
+    text-align: left;
+  }
+
+  .responsive-staff-section .column-header h2 {
+    font-size: 4rem;
+    line-height: 1.4;
+    margin-bottom: 1.5rem !important;
+    word-break: break-word;
+    width: 100% !important;
+    padding-top: 5px;
+    font-weight: 800;
+  }
+
+  .responsive-staff-section .column-header .sub-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .responsive-staff-section .columns {
+    width: 100% !important;
+    flex-direction: column;
+  }
+
+  .responsive-staff-section .staff-list .group h3 {
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    position: relative;
+  }
+
+  .responsive-staff-section .staff-list h3::before {
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    height: 6px;
+    width: 5rem;
+    background-color: var(--midnight);
+    content: '';
+  }
+
+  .responsive-staff-section .staff-member {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .responsive-staff-section .staff-member .profile-picture {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+  }
+
+  .responsive-staff-section .staff-member .profile-picture img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    /* border-radius: 50%; */
+    display: block;
+  }
+
+  .responsive-staff-section .staff-details .name {
+    display: block;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .responsive-staff-section .staff-details .title {
+    display: block;
+    font-size: 1.8rem;
+    color: #666;
   }
 }
