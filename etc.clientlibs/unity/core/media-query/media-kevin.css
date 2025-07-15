@@ -437,398 +437,7 @@
 
 /* ------------ responsive-help-section end ------------------- */
 
-/* ===== Header Responsive: Growing Your Wealth ===== */
-.responsive-growing-wealth-header {
-  width: 100%;
-  z-index: 99;
-  font-size: 1.08rem;
-}
 
-.responsive-growing-wealth-header .mobile-menu-button {
-  display: none;
-  cursor: pointer;
-}
-
-/* Drawer styling for mobile */
-.drawer-menu {
-  position: fixed;
-  top: 0;
-  right: -100vw;
-  width: 90vw;
-  max-width: 380px;
-  height: 100vh;
-  background: var(--midnight-sky, #13213B);
-  box-shadow: -3px 0 24px 0 rgba(0, 0, 0, 0.2);
-  transition: right .35s cubic-bezier(.85, 0, .15, 1);
-  z-index: 1999;
-  padding: 2rem 1.2rem;
-  flex-direction: column;
-}
-
-.drawer-menu.open {
-  right: 0;
-}
-
-.drawer-menu .close-btn {
-  display: block;
-  background: none;
-  color: #fff;
-  border: none;
-  font-size: 2.4rem;
-  margin-left: auto;
-  margin-bottom: 2rem;
-  cursor: pointer;
-}
-
-/* ====== Top Header (Supplemental Navigation) Wrapper ====== */
-.top-header-wrapper {
-  width: 100%;
-  max-width: 1850px;
-  margin: 0 auto;
-  padding: 0 2.5vw;
-}
-
-@media (max-width: 1440px) {
-  .top-header-wrapper {
-    padding: 0 1.8vw;
-  }
-}
-
-@media (max-width: 1024px) {
-  .top-header-wrapper {
-    padding: 0 1.2vw;
-  }
-}
-
-.top-header-bar nav,
-.top-header-bar .secondary-header-menu,
-.top-header-bar .secondary-header-menu a {
-  font-size: 0.99rem;
-  letter-spacing: 0.01em;
-}
-
-/* ====== Main Header/Nav Responsiveness ====== */
-
-/* 1300px: shrink logo, gap, font size, button */
-@media (max-width: 1300px) {
-  .responsive-growing-wealth-header .wrapper {
-    padding: 0 2vw;
-  }
-
-  .responsive-growing-wealth-header .site-brand img {
-    max-width: 140px;
-  }
-
-  .responsive-growing-wealth-header .navbar .nav-link {
-    font-size: 1.07rem;
-  }
-
-  .responsive-growing-wealth-header .button {
-    font-size: 1.03rem;
-    padding: 1.05rem 1.2rem;
-  }
-}
-
-/* 1200px: even more compact, still horizontal */
-@media (max-width: 1200px) {
-  .responsive-growing-wealth-header .wrapper {
-    padding: 0 1.1vw;
-  }
-
-  .responsive-growing-wealth-header .navbar .nav-group {
-    gap: 2vw;
-  }
-
-  .responsive-growing-wealth-header .navbar .nav-link {
-    font-size: 1.01rem;
-    padding-left: 0.6vw;
-    padding-right: 0.6vw;
-  }
-}
-
-/* 1024px: compact but keep horizontal nav, logo shrinks */
-@media (max-width: 1024px) {
-  .responsive-growing-wealth-header {
-    font-size: 2.5rem !important;
-  }
-
-  .responsive-growing-wealth-header .wrapper {
-    padding: 0 0.8vw;
-  }
-
-  .responsive-growing-wealth-header .navbar .nav-group {
-    gap: 1vw;
-  }
-
-  .responsive-growing-wealth-header .navbar .nav-link {
-    font-size: 1.56rem !important;
-    padding-left: 0.4vw;
-    padding-right: 0.4vw;
-  }
-
-  .responsive-growing-wealth-header .site-brand img {
-    max-width: 180px;
-  }
-
-  .responsive-growing-wealth-header .button {
-    font-size: 1.5rem !important;
-    padding: 0.88rem 2rem !important;
-  }
-}
-
-/* 900px: squeeze logo/button more if needed (optional) */
-@media (max-width: 900px) {
-  .responsive-growing-wealth-header .site-brand img {
-    max-width: 100px;
-  }
-
-  .responsive-growing-wealth-header .button {
-    font-size: 1.75rem !important;
-    padding: 1rem 2rem !important;
-    white-space: nowrap;
-    margin-right: 0.5rem;
-  }
-}
-
-/* 767px and below: mobile nav, show hamburger, stack everything */
-@media (max-width: 768px) {
-  .responsive-growing-wealth-header .wrapper {
-    flex-direction: row !important;
-    align-items: center !important;
-    padding: 2rem 0.5rem;
-    gap: 0.5rem;
-  }
-
-  .responsive-growing-wealth-header .site-brand img {
-    max-width: 130px;
-    height: auto;
-  }
-
-  .responsive-growing-wealth-header .navbar {
-    flex: 1 1 0%;
-    display: flex !important;
-    flex-direction: row !important;
-    align-items: center !important;
-    justify-content: flex-end;
-    gap: 0.6rem;
-    min-width: 0;
-  }
-
-  .responsive-growing-wealth-header .navbar .nav-group {
-    gap: 0.5rem;
-    flex-direction: row !important;
-    align-items: center !important;
-    display: none;
-  }
-
-  .responsive-growing-wealth-header .navbar .nav-link {
-    font-size: 0.96rem;
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
-  }
-
-  .responsive-growing-wealth-header .button {
-    font-size: 1.75rem !important;
-    padding: 1rem 2rem !important;
-    white-space: nowrap;
-    margin-right: 0.5rem;
-  }
-
-  .responsive-growing-wealth-header .mobile-menu-button {
-    display: block !important;
-  }
-}
-
-@media (max-width: 768px) {
-  .responsive-growing-wealth-header .nav-group:last-child {
-    display: flex !important;
-    flex-direction: row !important;
-    align-items: center !important;
-    gap: 0.5rem;
-  }
-
-  .responsive-growing-wealth-header .nav-group:last-child .nav-item {
-    margin-right: 0 !important;
-  }
-
-  .responsive-growing-wealth-header .mobile-menu-button {
-    order: 99;
-    /* ensures it's last in the flex row */
-  }
-
-  .top-header-wrapper nav>ul>li>a {
-    font-size: 1.5rem !important;
-  }
-
-  .drawer-menu .mobile-nav .nav-link,
-  .drawer-menu .mobile-nav>ul>li>a {
-    font-size: 2.5rem !important;
-    padding-left: 10px !important;
-  }
-
-  .drawer-menu .mobile-secondary-nav a {
-    color: #c3cfd8;
-    font-size: 1.5rem !important;
-    font-weight: 400;
-    padding: 1rem 0;
-    padding-left: 10px !important;
-    transition: color 0.15s;
-  }
-}
-
-
-/* 480px and below: font and logo even smaller, drawer 99vw */
-@media (max-width: 480px) {
-  .responsive-growing-wealth-header .navbar .nav-link {
-    font-size: 2.75rem !important;
-  }
-
-  .responsive-growing-wealth-header .site-brand {
-    width: 160px;
-  }
-
-  .top-header-wrapper nav>ul>li>a {
-    font-size: 1.75rem !important;
-  }
-
-  .responsive-growing-wealth-header .wrapper {
-    flex-direction: row !important;
-    align-items: center !important;
-    padding: 3rem 0.5rem;
-    gap: 0.5rem;
-  }
-
-  .responsive-growing-wealth-header .button {
-    font-size: 3rem !important;
-    padding: 1rem 2rem !important;
-    white-space: nowrap;
-    margin-right: 0.5rem;
-  }
-}
-
-
-/* Column layout for navs inside drawer */
-.drawer-menu .mobile-nav,
-.drawer-menu .mobile-secondary-nav {
-  display: flex;
-  flex-direction: column;
-  gap: 2.2rem;
-  margin-bottom: 2.5rem;
-  padding: 0;
-}
-
-.drawer-menu .mobile-nav {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-  padding-bottom: 1.2rem;
-}
-
-/* Make main menu links bigger and bold */
-.drawer-menu .mobile-nav .nav-link,
-.drawer-menu .mobile-nav>ul>li>a,
-.drawer-menu .mobile-nav .link-item>a {
-  color: #fff;
-  font-size: 1.18rem;
-  font-weight: 600;
-  text-decoration: none;
-  padding: 0.4rem 0;
-  display: block;
-  letter-spacing: 0.01em;
-  transition: color 0.17s;
-}
-
-.drawer-menu .mobile-nav .nav-link:hover,
-.drawer-menu .mobile-nav>ul>li>a:hover {
-  color: var(--apple-green, #73E59D);
-}
-
-/* Submenus (dropdown-menu columns) */
-.drawer-menu .menu-column {
-  margin: 0.5rem 0 1.5rem 0.8rem;
-  padding: 0.6rem 0;
-  border-left: 2px solid var(--apple-green, #73E59D);
-}
-
-.drawer-menu .menu-column .nav-section-header .nav-link {
-  color: var(--apple-green, #73E59D);
-  font-size: 1.09rem;
-  font-weight: bold;
-  padding: 0 0 0.5rem 0;
-}
-
-.drawer-menu .menu-column .link-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-}
-
-.drawer-menu .menu-column .link-item a {
-  color: #fff;
-  font-weight: 400;
-  font-size: 1.04rem;
-  opacity: 0.87;
-  padding-left: 0.4rem;
-  transition: color 0.18s;
-}
-
-.drawer-menu .menu-column .link-item a:hover {
-  color: var(--apple-green, #73E59D);
-  opacity: 1;
-}
-
-/* Secondary nav (top links) smaller and muted */
-.drawer-menu .mobile-secondary-nav ul {
-  display: flex;
-  flex-direction: column;
-  gap: 0.7rem;
-  margin: 0.5rem 0;
-  padding: 0;
-}
-
-.drawer-menu .mobile-secondary-nav a {
-  color: #c3cfd8;
-  font-size: 1.01rem;
-  font-weight: 400;
-  padding: 0.3rem 0;
-  transition: color 0.15s;
-}
-
-.drawer-menu .mobile-secondary-nav a:hover {
-  color: var(--apple-green, #73E59D);
-}
-
-/* Responsive for drawer (for smaller mobile screens) */
-@media (max-width: 500px) {
-  .drawer-menu {
-    font-size: 1.02rem;
-    padding: 1.2rem 0.4rem;
-  }
-
-  .drawer-menu .mobile-nav .nav-link,
-  .drawer-menu .mobile-nav>ul>li>a {
-    font-size: 1.07rem;
-  }
-
-  .drawer-menu .menu-column {
-    margin-left: 0.1rem;
-    padding-left: 0.5rem;
-    border-width: 1.2px;
-  }
-}
-
-@media (min-width: 450px) and (max-width: 800px) {
-  .drawer-menu .mobile-nav>.dropdown .dropdown-menu {
-    display: flex !important;
-    flex-direction: row !important;
-    gap: 2rem;
-    flex-wrap: wrap;
-  }
-
-  .drawer-menu .menu-column {
-    min-width: 140px;
-    flex: 1 1 45%;
-    max-width: 230px;
-  }
-}
 
 /* ----- Responsive: Building Wealth That Lasts ----- */
 
@@ -1230,3 +839,219 @@
 }
 
 /* --------- rsp-investment-approach end ---------- */
+
+
+
+/* --------- header start ---------- */
+
+@media (max-width: 768px) {
+  .desktop-menu {
+    display: none !important;
+  }
+
+  .mobile-menu-button {
+    display: block !important;
+    cursor: pointer;
+  }
+
+  #mobile-drawer-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    z-index: 998;
+    backdrop-filter: blur(1px);
+  }
+
+  #mobile-drawer {
+    position: fixed;
+    top: 0;
+    right: -70%;
+    width: 70%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 999;
+    transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 2rem;
+    overflow-y: auto;
+  }
+
+  #mobile-drawer.open {
+    right: 0;
+  }
+
+  #mobile-drawer-overlay.active {
+    display: block;
+  }
+
+  .drawer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .drawer-header img {
+    height: 3.2rem;
+  }
+
+  .drawer-header button {
+    background: none;
+    border: none;
+    font-size: 3rem;
+    cursor: pointer;
+    color: #000;
+  }
+
+  .drawer-menu {
+    list-style: none;
+    padding: 0;
+    margin-top: 3rem;
+    font-family: 'BentonSans', sans-serif;
+  }
+
+  .menu-group {
+    margin-bottom: 2.5rem;
+    /* border: 1px solid #eee; */
+    /* border-radius: 10px; */
+    overflow: hidden;
+    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03); */
+  }
+
+  .menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.9rem;
+    font-weight: 700;
+    padding: 1.2rem 1.5rem;
+    /* background-color: #f9fafa; */
+    cursor: pointer;
+    color: #1a1a1a;
+  }
+
+  .menu-header button.toggle-submenu {
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #666;
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+  }
+
+  .menu-group.open .toggle-submenu {
+    transform: rotate(180deg);
+  }
+
+  .submenu {
+    max-height: 0;
+    overflow: hidden;
+    /* opacity: 0; */
+    visibility: hidden;
+    padding: 0 1.5rem;
+    transition: max-height 0.4s ease, opacity 0.3s ease, visibility 0.3s ease;
+    background-color: #ffffff;
+  }
+
+  .submenu.open {
+    max-height: 1000px;
+    /* opacity: 1; */
+    visibility: visible;
+    padding-bottom: 1rem;
+  }
+
+  .submenu li {
+    margin: 0.5rem 0;
+  }
+
+  .submenu-label {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 1.3rem;
+    color: #019D9A;
+    background-color: #e0f5f4;
+    padding: 0.3rem 1rem;
+    border-radius: 9999px;
+    display: inline-block;
+  }
+
+  .submenu a {
+    font-size: 1.5rem;
+    color: #333;
+    text-decoration: none;
+    padding: 0.6rem 0.8rem;
+    display: block;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    border-radius: 6px;
+  }
+
+  .submenu a:hover {
+    background-color: #e6f6f5;
+    color: #019D9A;
+  }
+
+  .menu-link {
+    font-size: 2rem;
+    display: block;
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+  }
+
+  .drawer-cta {
+    margin-top: 3rem;
+  }
+
+  .drawer-cta a {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 1.8rem;
+    background-color: #d8fdac;
+    color: #000;
+    padding: 1rem 1.5rem;
+    border-radius: 9999px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .drawer-cta img {
+    height: 1.2rem;
+  }
+
+  .navbar {
+    justify-content: flex-end;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .navbar .nav-group.f-g.g-r.j-sp-b {
+    display: none;
+  }
+
+  .submenu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+    opacity: 0;
+  }
+
+  .submenu.open {
+    max-height: 1000px;
+    opacity: 1;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  #mobile-drawer,
+  #mobile-drawer-overlay,
+  .mobile-menu-button {
+    display: none !important;
+  }
+}
+
+/* --------- header end ---------- */

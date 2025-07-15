@@ -69,6 +69,7 @@
 
 <body class="default body light inner">
     <div class="page-wrapper">
+        <!-- header start -->
         <header class="header absolute">
             <div id="supplemental-navigation" data-id="LMOCYBX2N7UO6JX8S2RHKH7L1" class="d-f f-w j-c">
                 <div class="wrapper">
@@ -91,27 +92,33 @@
                     </a>
                     <nav id="site-navbar" data-id="LFJIS0R018O8OVQM9IIOD6159"
                         class="navbar navbar-expand-lg navbar-light d-f f-r a-c j-sp-b">
-                        <div class="nav-group f-g g-r j-sp-b">
-                            <div class="nav-item dropdown"> <a id="AUANMXLNPR79XGQ" aria-expanded="false" role="button"
+
+                        <div class="nav-group f-g g-r j-sp-b ">
+                            <div class="nav-item dropdown "> <a id="AUANMXLNPR79XGQ" aria-expanded="false" role="button"
                                     class="dropdown-toggle nav-link" tabindex="0" href="index.html">Individuals</a>
                                 <div data-popper="static" class="dropdown-menu">
                                     <div class="nav-supporting-content">
-                                        <div class="nav-supporting-title">Trusted by australians, guided by experience
+                                        <div class="nav-supporting-title">Trusted by australians, guided by
+                                            experience
                                         </div>
                                         <div>
                                             <p>
-                                                By understanding your goals, values, and individual circumstances, we
-                                                craft tailored strategies designed to build, manage, and protect your
+                                                By understanding your goals, values, and individual circumstances,
+                                                we
+                                                craft tailored strategies designed to build, manage, and protect
+                                                your
                                                 wealth—so you can move forward with confidence.
                                             </p>
-                                        </div> <a class="nav-link button button-with-icon" href="index.html"> <span>How
+                                        </div> <a class="nav-link button button-with-icon" href="index.html">
+                                            <span>How
                                                 we help</span> <i><img
                                                     src="../etc.clientlibs/dalbycapital/clientlibs/resources/images/icons/hq-arrow-right.svg"></i>
                                         </a>
                                     </div>
                                     <div class="menu-column">
                                         <div class="nav-item nav-section-header"> <a class="nav-link"
-                                                href="managing-your-wealth/index.html">Managing your wealth</a> </div>
+                                                href="managing-your-wealth/index.html">Managing your wealth</a>
+                                        </div>
                                         <ul class="link-list">
                                             <li class="link-item"> <a
                                                     href="managing-your-wealth/growing-your-wealth/index.html">
@@ -122,7 +129,8 @@
                                                     href="managing-your-wealth/helping-you-fulfil-your-financial-ambitions/index.html">
                                                     <span>Fulfilling your financial ambitions</span> <i><img
                                                             src="../etc.clientlibs/dalbycapital/clientlibs/resources/images/icons/unity-arrow-right.svg"
-                                                            alt="Fulfilling your financial ambitions"></i> </a> </li>
+                                                            alt="Fulfilling your financial ambitions"></i> </a>
+                                            </li>
                                             <li class="link-item"> <a
                                                     href="managing-your-wealth/managing-a-windfall/index.html">
                                                     <span>Managing a windfall</span> <i><img
@@ -172,7 +180,8 @@
                                         </ul>
                                     </div>
                                 </div>
-                            </div> <!--
+                            </div>
+                            <!--
                 <div class="nav-item dropdown">
 
                     <a id={generateId(15)} aria-expanded="false" role="button" class="dropdown-toggle nav-link" tabindex="0" href="/advisers/">Advisers</a>
@@ -337,8 +346,8 @@
                                     href="../apply/begin/index.html"> <span>Account Application</span> <i><img
                                             src="../etc.clientlibs/dalbycapital/clientlibs/resources/images/icons/hq-arrow-right.svg"></i>
                                 </a> </div>
-                            <div class="mobile-menu-button"> <svg xmlns="http://www.w3.org/2000/svg" width="4rem"
-                                    height="4rem" viewBox="0 0 200 200">
+                            <div class="mobile-menu-button" onclick="toggleDrawer()"> <svg
+                                    xmlns="http://www.w3.org/2000/svg" width="4rem" height="4rem" viewBox="0 0 200 200">
                                     <g stroke-width="5.5" stroke-linecap="round">
                                         <path d="M72 82.286h28.75" fill="#fff" fill-rule="evenodd" stroke="#019D9A">
                                         </path>
@@ -361,6 +370,103 @@
                 </div>
             </div>
         </header>
+        <!-- === Mobile Drawer Only Below 768px === -->
+        <div id="mobile-drawer-overlay" onclick="closeDrawer()"></div>
+        <aside id="mobile-drawer">
+            <div class="drawer-header d-f f-r j-sp-b a-c">
+                <a href="../index.html" class="drawer-logo">
+                    <img src="../etc.clientlibs/dalbycapital/clientlibs/resources/images/branding/site-logo.svg"
+                        alt="Dalby Capital" height="40">
+                </a>
+                <button class="drawer-close" onclick="closeDrawer()">&times;</button>
+            </div>
+            <ul class="drawer-menu">
+                <li class="menu-group">
+                    <div class="menu-header">
+                        <a href="/individuals/index.html">Individuals</a>
+                        <button class="toggle-submenu">▼</button>
+                    </div>
+                    <ul class="submenu">
+                        <li class="submenu-label">Managing your wealth</li>
+                        <li><a href="/individuals/managing-your-wealth/growing-your-wealth/index.html">Growing your
+                                wealth</a></li>
+                        <li><a
+                                href="/individuals/managing-your-wealth/helping-you-fulfil-your-financial-ambitions/index.html">Fulfilling
+                                your financial ambitions</a></li>
+                        <li><a href="/individuals/managing-your-wealth/managing-a-windfall/index.html">Managing a
+                                windfall</a></li>
+                        <li><a href="/individuals/managing-your-wealth/planning-your-financial-future/index.html">Planning
+                                your financial future</a></li>
+                        <li><a href="/individuals/managing-your-wealth/protecting-your-wealth/index.html">Safeguarding
+                                your wealth</a></li>
+
+                        <li class="submenu-label">Investment services</li>
+                        <li><a href="/individuals/investment-services/portfolio-management/index.html">Portfolio
+                                management</a></li>
+                        <li><a href="/individuals/investment-services/discretionary-portfolio-management/index.html">Discretionary
+                                portfolio management</a></li>
+                        <li><a href="/individuals/investment-services/investment-bonds/index.html">Investment bonds</a>
+                        </li>
+                        <li><a href="/individuals/investment-services/pensions-and-retirement/index.html">Pensions and
+                                retirement</a></li>
+                        <li><a href="/individuals/investment-services/inheritance-tax-portfolio-service/index.html">Inheritance
+                                tax portfolio service</a></li>
+                    </ul>
+                </li>
+
+                <li class="menu-group">
+                    <div class="menu-header">
+                        <a href="/corporations/index.html">Corporations</a>
+                        <button class="toggle-submenu">▼</button>
+                    </div>
+                    <ul class="submenu">
+                        <li class="submenu-label">Corporate wealth management</li>
+                        <li><a
+                                href="/corporations/corporate-wealth-management/portfolio-management-for-corporates/index.html">Portfolio
+                                management for corporates</a></li>
+                        <li><a
+                                href="/corporations/corporate-wealth-management/discretionary-portfolio-management/index.html">Discretionary
+                                portfolio management</a></li>
+
+                        <li class="submenu-label">Corporate investment solutions</li>
+                        <li><a
+                                href="/corporations/corporate-investment-solutions/corporate-investment-strategies/index.html">Corporate
+                                investment strategies</a></li>
+                        <li><a
+                                href="/corporations/corporate-investment-solutions/employee-retirement-planning/index.html">Employee
+                                retirement planning</a></li>
+                        <li><a href="/corporations/corporate-investment-solutions/managing-corporate-wealth/index.html">Managing
+                                corporate wealth</a></li>
+                    </ul>
+                </li>
+
+                <li class="menu-group">
+                    <div class="menu-header">
+                        <a href="/about-us/index.html">About us</a>
+                        <button class="toggle-submenu">▼</button>
+                    </div>
+                    <ul class="submenu">
+                        <li><a href="/about-us/why-choose-dalbycapital/index.html">Why choose us</a></li>
+                        <li><a href="/about-us/our-people/index.html">Our people</a></li>
+                        <li><a href="/about-us/corporate-responsibility/index.html">Corporate responsibility</a></li>
+                    </ul>
+                </li>
+
+                <li><a class="menu-link" href="https://medium.com/@dalbycapital">Insights</a></li>
+
+                <li class="drawer-cta">
+                    <a class="nav-link button button-with-icon" href="/apply/begin/index.html">
+                        <span>Account Application</span>
+                        <i><img
+                                src="../etc.clientlibs/dalbycapital/clientlibs/resources/images/icons/hq-arrow-right.svg" /></i>
+                    </a>
+                </li>
+            </ul>
+
+
+        </aside>
+        <!-- header end -->
+
         <main class="main-wrapper" role="main">
             <div data-id="QQ72FBH9GLAKCNNSKOAASUGIB" class="section hero hero-style-01" role="banner">
                 <div class="wrapper d-f f-r a-c j-c">
@@ -763,6 +869,40 @@
         type="text/javascript"></script>
     <script src="../etc.clientlibs/dalbycapital/clientlibs/resources/js/form-interactions.js"
         type="text/javascript"></script>
+
+    <script>
+        function toggleDrawer() {
+            document.getElementById("mobile-drawer").classList.add("open");
+            document.getElementById("mobile-drawer-overlay").classList.add("active");
+        }
+
+        function closeDrawer() {
+            document.getElementById("mobile-drawer").classList.remove("open");
+            document.getElementById("mobile-drawer-overlay").classList.remove("active");
+        }
+
+        function toggleSubmenu(button) {
+            const group = button.closest('.menu-group');
+            const submenu = group.querySelector('.submenu');
+
+            document.querySelectorAll('.menu-group').forEach(g => {
+                if (g !== group) {
+                    g.classList.remove('open');
+                    g.querySelector('.submenu')?.classList.remove('open');
+                }
+            });
+
+            submenu.classList.toggle('open');
+            group.classList.toggle('open');
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            document.querySelectorAll(".toggle-submenu").forEach((button) => {
+                button.addEventListener("click", () => toggleSubmenu(button));
+            });
+        });
+    </script>
+
 </body>
 
 </html>
