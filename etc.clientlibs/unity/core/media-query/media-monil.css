@@ -2097,6 +2097,44 @@
         font-size: 3rem !important;
         padding: 1.2rem 2.5rem !important;
     }
+     .rsp-investment-approach .columns {
+    width: 100%;
+  }
+
+  .rsp-investment-approach .sub-title {
+    margin-bottom: 1.5rem;
+  }
+
+  .rsp-investment-approach .column-content p {
+    margin-top: 2rem;
+  }
+
+  .rsp-investment-approach ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .rsp-investment-approach ul li {
+    font-size: 1.5rem !important;
+    padding-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+
+  .rsp-investment-approach ul.standard-list.bullets.bullets-left li::before {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .rsp-investment-approach .sub-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
 }
 
 
