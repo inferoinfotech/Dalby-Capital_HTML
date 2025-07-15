@@ -44,6 +44,16 @@
 
 }
 
+body.menu-open::after {
+  content: "";
+  position: fixed;
+  z-index: 1998;
+  inset: 0;
+  background: rgba(18, 33, 59, 0.45); /* dark transparent */
+  pointer-events: all;
+}
+
+
 
 html, body { font-size: 17px; }
 body { font-size: 1rem; }
