@@ -2253,7 +2253,6 @@
     .responsive-trusted-section .columns {
         flex-direction: column;
         width: 100%;
-        padding: 0 1rem;
     }
 
     .responsive-trusted-section .column-header {
@@ -2291,6 +2290,7 @@
         line-height: 1.4;
         word-break: break-word;
         padding-top: 0 !important;
+        padding-bottom: 0 !important;
     }
 
     .responsive-trusted-section .column-content p {
@@ -2301,7 +2301,6 @@
 
     .responsive-trusted-section .column-content.border-right {
         border-right: none;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
         padding-bottom: 2rem;
         margin-bottom: 2rem;
     }
@@ -2321,19 +2320,249 @@
     .responsive-trusted-section .figure-description {
         font-size: 3rem !important;
         line-height: 1.4;
+        width: 100% !important;
+        margin-bottom: 10px;
     }
 
     .responsive-trusted-section .slider-navigation {
-        margin-bottom: 2rem;
+        margin-top: 10px;
         display: flex;
         justify-content: flex-start;
-        gap: 1rem;
+        gap: 2rem;
     }
 
     .responsive-trusted-section .slider-navigation button {
         color: white;
+        width: 4rem !important;
+        height: 4rem !important;
         border: none;
     }
 }
 
 /* ------------ responsive-trusted-section end ------------------- */
+
+/* rsp-investment-impact start */
+
+@media (max-width: 1024px) {
+  .rsp-investment-impact .wrapper {
+    flex-direction: column !important;
+    padding: 3rem 0 !important;
+    box-sizing: border-box;
+  }
+
+  .rsp-investment-impact .columns {
+    flex-direction: column !important;
+    width: 100% !important;
+    border-right: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .rsp-investment-impact .column-header {
+    width: 100% !important;
+    padding: 0 !important;
+    margin-bottom: 2.5rem !important;
+    text-align: left !important;
+  }
+
+  .rsp-investment-impact .sub-title {
+    font-size: 2.5rem !important;
+    margin-bottom: 1rem !important;
+    color: #16323b;
+    font-weight: 600;
+  }
+
+  .rsp-investment-impact h2 {
+    font-size: 4.8rem !important;
+    font-weight: 900 !important;
+    line-height: 1.12 !important;
+    margin-bottom: 3rem !important;
+    word-break: break-word;
+  }
+
+  .rsp-investment-impact .column-content {
+    width: 100% !important;
+    padding: 0 !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .rsp-investment-impact .column-content p {
+    font-size: 2.3rem !important;
+    line-height: 1.6 !important;
+    color: #17323b;
+    text-align: left !important;
+    margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .rsp-investment-impact .wrapper {
+  }
+
+  .rsp-investment-impact .sub-title {
+    font-size: 2rem !important;
+  }
+
+  .rsp-investment-impact h2 {
+    font-size: 3.5rem !important;
+  }
+
+  .rsp-investment-impact .column-content p {
+    font-size: 1.8rem !important;
+  }
+  .rsp-investment-impact .colum.column-figure.w-f.g-p-l.g-p-r {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+
+/* rsp-protect-grow start */
+
+@media (max-width: 768px) {
+  .rsp-protect-grow .wrapper {
+    flex-direction: column !important;
+    padding: 2.5rem 0rem !important;
+    box-sizing: border-box;
+  }
+
+  .rsp-protect-grow .columns {
+    flex-direction: column !important;
+    width: 100% !important;
+    border-right: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .rsp-protect-grow .column-header {
+    width: 100% !important;
+    padding: 0 !important;
+    margin-bottom: 2rem !important;
+    text-align: left !important;
+  }
+
+  .rsp-protect-grow .sub-title {
+    font-size: 2rem !important;
+    margin-bottom: 1rem !important;
+    color: #16323b;
+    font-weight: 600;
+  }
+
+  .rsp-protect-grow h2 {
+    font-size: 4.5rem !important;
+    font-weight: 900 !important;
+    line-height: 1.1 !important;
+    word-break: break-word;
+  }
+
+  .rsp-protect-grow .column-content {
+    width: 100% !important;
+    padding: 0 !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .rsp-protect-grow .column-content p {
+    font-size: 2.3rem !important;
+    line-height: 1.6 !important;
+    color: #17323b;
+    text-align: left !important;
+    margin-top: 0 !important;
+  }
+
+  .rsp-protect-grow ul.standard-list li {
+    font-size: 2.3rem !important;
+    line-height: 1.5 !important;
+    color: #049199;
+    padding-left: 1.8rem !important;
+    margin-bottom: 1.4rem !important;
+    position: relative;
+  }
+
+  .rsp-protect-grow ul.standard-list li::before {
+    content: "›";
+    position: absolute;
+    left: 0;
+    color: #049199;
+    font-size: 2.1rem;
+    font-weight: 900;
+    top: 0.1rem;
+  }
+}
+
+/* rsp-learn-options start */
+
+@media (max-width: 768px) {
+  .rsp-learn-options .wrapper {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 3rem !important;
+    box-sizing: border-box;
+  }
+
+  .rsp-learn-options .columns {
+    flex-direction: column !important;
+    width: 100% !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .rsp-learn-options .column-header,
+  .rsp-learn-options .column-content {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 0 2rem 0 !important;
+    text-align: left !important;
+  }
+.rsp-learn-options h2.h2_plus.padding-extended {
+  padding-top: 2rem !important;
+}
+
+  .rsp-learn-options .h2_plus {
+    font-size: 4.5rem !important;
+    font-weight: 900 !important;
+    line-height: 1.1 !important;
+    margin-bottom: 1.8rem !important;
+  }
+
+  .rsp-learn-options h4 {
+    font-size: 3rem !important;
+    font-weight: 600 !important;
+    margin-top: 0 !important;
+  }
+
+  .rsp-learn-options p.m-t-inline {
+    font-size: 2.2rem !important;
+    line-height: 1.5 !important;
+    margin-bottom: 2rem !important;
+    margin-top: 0 !important;
+  }
+
+  .rsp-learn-options .link-list {
+    margin-top: 2rem !important;
+    padding-left: 0 !important;
+  }
+
+  .rsp-learn-options .link-item {
+    font-size: 2.1rem !important;
+    margin-bottom: 1.4rem !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .rsp-learn-options .link-item a {
+    color: #049199 !important;
+    text-decoration: underline !important;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .rsp-learn-options .link-item i img {
+    width: 4rem !important;
+    height: 4rem !important;
+    margin-left: 1rem;
+  }
+}
