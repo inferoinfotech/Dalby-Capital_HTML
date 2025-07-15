@@ -797,67 +797,6 @@
     max-width: 230px;
   }
 }
-
-/* ----- Responsive: Building Wealth That Lasts ----- */
-
-@media (max-width: 1200px) {
-  .responsive-wealth-section .wrapper {
-    padding-left: 2vw;
-    padding-right: 2vw;
-  }
-  .responsive-wealth-section .column-header h2 {
-    font-size: 3.2rem;
-  }
-
-  .responsive-wealth-section p {
-    font-size: 1.25rem !important;
-    margin-bottom: 1.4rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .responsive-wealth-section .wrapper {
-    padding-left: 2vw;
-    padding-right: 2vw;
-  }
-  .responsive-wealth-section .column-header h2 {
-    font-size: 3.75rem !important;
-  }
-
-  .responsive-wealth-section p {
-    font-size: 1.5rem !important;
-    margin-bottom: 1.4rem;
-  }
-}
-
-@media (max-width: 468px) {
-  .responsive-wealth-section .wrapper {
-    flex-direction: column !important;
-    align-items: flex-start !important;
-  }
-  .responsive-wealth-section .wrapper .column .column-header {
-    padding: 1rem 0 !important;
-  }
-  .responsive-wealth-section .column {
-    width: 100% !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    padding-bottom: 0 !important;
-    padding-top: 3.75rem !important;
-    text-align: left !important;
-  }
-  .responsive-wealth-section .column-header {
-    margin-bottom: 1.2rem;
-  }
-  .responsive-wealth-section .column-header h2 {
-    font-size: 5.5rem !important;
-  }
-  .responsive-wealth-section p {
-    font-size: 1.75rem !important;
-    margin-bottom: 1.4rem;
-  }
-}
-
 /* ----- Responsive: Strategy That Grows With You Section ----- */
 
 @media (max-width: 1200px) {

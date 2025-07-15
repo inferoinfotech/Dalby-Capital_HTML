@@ -47,7 +47,7 @@
   }
 
   .responsive-3-column .sub-title {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 0.5rem;
   }
 }
@@ -88,7 +88,7 @@
   }
 
   .responsive-invest-section .sub-title {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 0.5rem;
   }
 
@@ -103,14 +103,10 @@
 @media screen and (max-width: 768px) {
   .responsive-staff-section .wrapper {
     flex-direction: column;
-    gap: 2rem;
-    padding: 2rem 5vw;
   }
 
   .responsive-staff-section .column-header {
     width: 100% !important;
-    border-right: none !important;
-    padding-right: 0 !important;
     text-align: left;
   }
 
@@ -125,7 +121,7 @@
   }
 
   .responsive-staff-section .column-header .sub-title {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 0.5rem;
   }
 
@@ -184,5 +180,76 @@
     display: block;
     font-size: 1.8rem;
     color: #666;
+  }
+}
+
+/* About us Main Index  */
+
+@media screen and (max-width: 768px) {
+  .responsive-philosophy-section .wrapper {
+    flex-direction: column;
+    padding: 2.5rem 0em !important;
+  }
+
+  .responsive-philosophy-section .column-header {
+    width: 100% !important;
+    text-align: left;
+    padding-right: 0 !important;
+  }
+
+  .responsive-philosophy-section .column-header .h2_plus {
+    font-size: 4rem;
+    line-height: 1.4;
+    margin-bottom: 1.5rem !important;
+    width: 100% !important;
+    padding-top: 5px;
+    font-weight: 800;
+  }
+
+  .responsive-philosophy-section .column-header .sub-title {
+    font-size: 3rem;
+  }
+
+  .responsive-philosophy-section .column-header p {
+    font-size: 3rem;
+    line-height: 1.6;
+  }
+
+  .responsive-philosophy-section .columns {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .responsive-philosophy-section .column-content {
+    width: 100% !important;
+    padding: 0 !important;
+    border-right: none !important;
+  }
+
+  .responsive-philosophy-section figure img {
+    width: 100% !important;
+    margin: 0 !important;
+    display: block;
+    height: auto;
+  }
+
+  .responsive-philosophy-section h4.m-t-inline {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .responsive-philosophy-section .column-content li {
+    font-size: 2.2rem !important;
+    line-height: 1.38;
+    padding-left: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .responsive-philosophy-section ul.standard-list li span {
+    display: inline-block;
+    max-width: 100%;
+    word-break: break-word;
   }
 }
