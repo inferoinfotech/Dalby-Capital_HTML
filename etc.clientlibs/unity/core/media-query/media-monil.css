@@ -1766,6 +1766,7 @@
 
     .rsp-collab-relationship .d-f.f-r.w-2-c {
         flex-direction: column !important;
+        width: 100% !important;
     }
 
     .rsp-collab-relationship .column-header {
@@ -1776,7 +1777,7 @@
     }
 
     .rsp-collab-relationship .sub-title {
-        font-size: 1.8rem !important;
+        font-size: 2rem !important;
         margin-bottom: 0.8rem !important;
         color: #16323b;
     }
@@ -1796,7 +1797,7 @@
     }
 
     .rsp-collab-relationship .column-content p {
-        font-size: 1.7rem !important;
+        font-size: 2.1rem !important;
         line-height: 1.6 !important;
         color: #17323b;
         text-align: left !important;
@@ -1808,7 +1809,7 @@
     }
 
     .rsp-collab-relationship .sub-title[data-text] span {
-        font-size: 1.8rem !important;
+        font-size: 2.1rem !important;
         font-weight: 700 !important;
         color: #16323b;
     }
@@ -1832,7 +1833,11 @@
         justify-content: center !important;
         gap: 1.5rem !important;
     }
-
+    .rsp-collab-relationship .slider-navigation .previous,
+    .rsp-collab-relationship .slider-navigation .next {
+        width: 4rem !important;
+        height: 4rem !important;
+    }
     .rsp-collab-relationship .slider-navigation button {
         background-color: #049199 !important;
         border: none !important;
@@ -1852,14 +1857,9 @@
 
 
 /* ------------ rsp-manage-portfolio  start ------------------- */
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .rsp-manage-portfolio .wrapper {
-    display: flex !important;
-    flex-direction: column !important;
     padding: 3rem;
-    width: 100% !important;
-    box-sizing: border-box;
-    background: #fff;
   }
 
   .rsp-manage-portfolio .d-f.f-r {
@@ -1924,7 +1924,7 @@
   font-weight: bold;
   font-size: 5rem;
   top: 0px;
-}
+} */
 
 
 
