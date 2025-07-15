@@ -891,13 +891,13 @@
   }
 
   .drawer-header img {
-    height: 3.2rem;
+    height: 6rem;
   }
 
   .drawer-header button {
     background: none;
     border: none;
-    font-size: 3rem;
+    font-size: 6rem;
     cursor: pointer;
     color: #000;
   }
@@ -921,7 +921,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.9rem;
+    font-size: 2rem;
     font-weight: 700;
     padding: 1.2rem 1.5rem;
     /* background-color: #f9fafa; */
@@ -932,11 +932,13 @@
   .menu-header button.toggle-submenu {
     background: none;
     border: none;
-    font-size: 1.8rem;
+    font-size: 2rem;
     cursor: pointer;
     color: #666;
     transform: rotate(0deg);
     transition: transform 0.3s ease;
+    padding: 1rem;
+    margin-right: 2rem;
   }
 
   .menu-group.open .toggle-submenu {
@@ -1055,3 +1057,48 @@
 }
 
 /* --------- header end ---------- */
+
+/* --------- footer start ---------- */
+@media (max-width: 767px) {
+  footer .wrapper.d-f.f-r {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+
+  footer .column {
+    width: 48%;
+    flex: 0 0 48%;
+    padding: 0 !important;
+    border: none !important;
+    margin: 3rem 0;
+  }
+
+  /* Force 2 items per row */
+  footer .column:nth-child(3),
+  footer .column:nth-child(4) {
+    margin-top: 0 !important;
+  }
+
+  /* Reset inner layout for nested columns */
+  footer .column-content.d-f.f-r {
+    display: contents !important;
+  }
+
+  footer .link-list.minimal-list {
+    padding: 0;
+    margin: 0;
+  }
+
+  footer .link-item {
+    margin-bottom: 1rem;
+  }
+
+  footer .link-item a {
+    display: inline-block;
+    line-height: 1.6;
+  }
+}
+
+/* --------- footer end ---------- */
