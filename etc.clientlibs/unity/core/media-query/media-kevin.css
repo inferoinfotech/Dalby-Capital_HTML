@@ -616,7 +616,7 @@
 
 /* ----- Responsive: Strategies for Different Life Stages (responsive-strategy-section2) ----- */
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
   .responsive-strategy-section2 .wrapper {
     padding-left: 2vw;
     padding-right: 2vw;
