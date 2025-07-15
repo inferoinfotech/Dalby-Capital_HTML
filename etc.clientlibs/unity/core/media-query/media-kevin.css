@@ -1,450 +1,438 @@
 /* ------------ responsive-financial-advice start ------------------- */
 @media (max-width: 767px) {
-  .responsive-financial-advice .financial-flex {
-    flex-direction: column;
-    padding: 3rem 0;
-    box-sizing: border-box;
-  }
+    .responsive-financial-advice .financial-flex {
+        flex-direction: column;
+        padding: 3rem 0;
+        box-sizing: border-box;
+    }
 
-  .responsive-financial-advice .columns {
-    flex-direction: column;
-    border-right: none;
-    width: 100%;
-  }
+    .responsive-financial-advice .columns {
+        flex-direction: column;
+        border-right: none;
+        width: 100%;
+    }
 
-  .responsive-financial-advice .column-header {
-    width: 100%;
-    padding: 0;
-    margin-bottom: 0.5rem;
-    text-align: left;
-  }
+    .responsive-financial-advice .column-header {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 0.5rem;
+        text-align: left;
+    }
 
-  .responsive-financial-advice .columns.w-1-5-c > .column:first-child {
-    width: 100%;
-  }
+    .responsive-financial-advice .columns.w-1-5-c>.column:first-child {
+        width: 100%;
+    }
 
-  .responsive-financial-advice h2.h2_plus::before {
-    height: 3px;
-  }
+    .responsive-financial-advice h2.h2_plus::before {
+        height: 3px;
+    }
 
-  .responsive-financial-advice .column-header.d-f h2 {
-    font-size: 4rem;
-    line-height: 1.4;
-    margin-bottom: 1.5rem;
-    word-break: break-word;
-    width: 100%;
-    padding-top: 5px;
-    font-weight: 800;
-  }
+    .responsive-financial-advice .column-header.d-f h2 {
+        font-size: 4rem;
+        line-height: 1.4;
+        margin-bottom: 1.5rem;
+        word-break: break-word;
+        width: 100%;
+        padding-top: 5px;
+        font-weight: 800;
+    }
 
-  .responsive-financial-advice .column-header h2 br {
-    display: none;
-  }
+    .responsive-financial-advice .column-header h2 br {
+        display: none;
+    }
 
-  .responsive-financial-advice .column-content {
-    width: 100% !important;
-    padding: 0;
-    font-size: 0.95rem;
-    word-break: break-word;
-  }
+    .responsive-financial-advice .column-content {
+        width: 100% !important;
+        padding: 0;
+        font-size: 0.95rem;
+        word-break: break-word;
+    }
 
-  .responsive-financial-advice .column-content p {
-    margin: 0;
-    font-size: 3rem;
-    line-height: 1.4;
-  }
+    .responsive-financial-advice .column-content p {
+        margin: 0;
+        font-size: 3rem;
+        line-height: 1.4;
+    }
 
-  .responsive-financial-advice .column-figure {
-    width: 100%;
-    padding: 0;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    position: relative;
-    z-index: 1;
-  }
+    .responsive-financial-advice .column-figure {
+        width: 100%;
+        padding: 0;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        position: relative;
+        z-index: 1;
+    }
 
-  .responsive-financial-advice .column-figure figure {
-    width: 100%;
-    margin: 0;
-  }
+    .responsive-financial-advice .column-figure figure {
+        width: 100%;
+        margin: 0;
+    }
 
-  .responsive-financial-advice .column-figure img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-    border-radius: 0.4rem;
-  }
+    .responsive-financial-advice .column-figure img {
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;
+        border-radius: 0.4rem;
+    }
 
-  .responsive-financial-advice .contact-column {
-    width: 100%;
-    margin-top: 1rem;
-    padding: 1rem 0 0 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.08);
-    z-index: 2;
-    position: relative;
-    background-color: #f9fcfc;
-    /* Match your section bg if needed */
-  }
+    .responsive-financial-advice .contact-column {
+        width: 100%;
+        margin-top: 1rem;
+        padding: 1rem 0 0 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.08);
+        z-index: 2;
+        position: relative;
+        background-color: #f9fcfc;
+        /* Match your section bg if needed */
+    }
 
-  .responsive-financial-advice .contact-column h3 {
-    margin-bottom: 0.75rem;
-    margin-top: 1.25rem;
-    padding-top: 5px;
-    font-weight: 800;
-    font-size: 4rem;
-  }
+    .responsive-financial-advice .contact-column h3 {
+        margin-bottom: 0.75rem;
+        margin-top: 1.25rem;
+        padding-top: 5px;
+        font-weight: 800;
+        font-size: 4rem;
+    }
 
-  .responsive-financial-advice h3.border-top-decreased::before {
-    height: 3px;
-  }
+    .responsive-financial-advice h3.border-top-decreased::before {
+        height: 3px;
+    }
 
-  .responsive-financial-advice .contact-column p {
-    font-size: 3rem;
-    line-height: 1.4;
-    margin-bottom: 1.25rem;
-  }
+    .responsive-financial-advice .contact-column p {
+        font-size: 3rem;
+        line-height: 1.4;
+        margin-bottom: 1.25rem;
+    }
 
-  .responsive-financial-advice .button {
-    font-size: 2rem;
-  }
+    .responsive-financial-advice .button {
+        font-size: 2rem;
+    }
 
-  .responsive-financial-advice .button i {
-    width: 1.5rem;
-    height: auto;
-    margin-left: 0.5rem;
-  }
+    .responsive-financial-advice .button i {
+        width: 1.5rem;
+        height: auto;
+        margin-left: 0.5rem;
+    }
 
-  .responsive-financial-advice .h2 {
-    font-size: 1rem;
-    text-decoration: none;
-  }
+    .responsive-financial-advice .h2 {
+        font-size: 1rem;
+        text-decoration: none;
+    }
 }
 
 /* ------------ responsive-financial-advice end ------------------- */
 
 /* ------------ responsive-trusted-section start ------------------- */
 @media (max-width: 767px) {
-  .responsive-trusted-section .wrapper {
-    flex-direction: column;
-    padding: 3rem 0 !important;
-    box-sizing: border-box;
-  }
+    .responsive-trusted-section .wrapper {
+        flex-direction: column;
+        padding: 3rem 0 !important;
+        box-sizing: border-box;
+    }
 
-  .responsive-trusted-section .column-header,
-  .responsive-trusted-section .columns {
-    flex-direction: column;
-    width: 100% !important;
-    padding: 0 1rem !important;
-  }
+    .responsive-trusted-section .column-header,
+    .responsive-trusted-section .columns {
+        flex-direction: column;
+        width: 100% !important;
+        padding: 0 1rem !important;
+    }
 
-  .responsive-trusted-section .column-header {
-    text-align: left;
-    margin-bottom: 2rem;
-  }
+    .responsive-trusted-section .column-header {
+        text-align: left;
+        margin-bottom: 2rem;
+    }
 
-  .responsive-trusted-section .column-header h2 {
-    font-size: 4rem;
-    line-height: 1.3;
-    font-weight: 800;
-    margin-top: 1rem;
-  }
+    .responsive-trusted-section .column-header h2 {
+        font-size: 4rem;
+        line-height: 1.3;
+        font-weight: 800;
+        margin-top: 1rem;
+    }
 
-  .responsive-trusted-section .column-header h2 br {
-    display: none;
-  }
+    .responsive-trusted-section .column-header h2 br {
+        display: none;
+    }
 
-  .responsive-trusted-section .sub-title {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-  }
+    .responsive-trusted-section .sub-title {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
 
-  .responsive-trusted-section a {
-    font-size: 2.2rem;
-    margin-top: 1.5rem;
-    padding: 1.6rem 2.7rem;
-    border-radius: 2.5rem;
-    width: fit-content;
-  }
+    .responsive-trusted-section .columns {
+        gap: 2rem;
+    }
 
-  .responsive-trusted-section .statement {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-  }
+    .responsive-trusted-section .column-content {
+        width: 100% !important;
+        padding: 0 !important;
+        font-size: 3rem;
+        line-height: 1.4;
+        word-break: break-word;
+    }
 
-  .responsive-trusted-section .columns {
-    gap: 2rem;
-  }
+    .responsive-trusted-section .column-content p {
+        margin-top: 0 !important;
+        font-size: 3rem;
+        line-height: 1.4;
+    }
 
-  .responsive-trusted-section .column-content {
-    width: 100% !important;
-    padding: 0 !important;
-    font-size: 3rem;
-    line-height: 1.4;
-    word-break: break-word;
-  }
+    .responsive-trusted-section .column-content.border-right {
+        border-right: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+    }
 
-  .responsive-trusted-section .column-content p {
-    margin-top: 0 !important;
-    font-size: 3rem;
-    line-height: 1.4;
-  }
+    .responsive-trusted-section .slider.statistical-slider {
+        padding-bottom: 2rem;
+    }
 
-  .responsive-trusted-section .column-content.border-right {
-    border-right: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-    padding-bottom: 2rem;
-    margin-bottom: 2rem;
-  }
+    .responsive-trusted-section .key-figure {
+        font-size: 4rem;
+        font-weight: bold;
+        color: var(--orange);
+        display: block;
+        margin-bottom: 1rem;
+    }
 
-  .responsive-trusted-section .slider.statistical-slider {
-    padding-bottom: 2rem;
-  }
+    .responsive-trusted-section .figure-description {
+        font-size: 3rem;
+        line-height: 1.4;
+    }
 
-  .responsive-trusted-section .key-figure {
-    font-size: 4rem;
-    font-weight: bold;
-    color: var(--orange);
-    display: block;
-    margin-bottom: 1rem;
-  }
+    .responsive-trusted-section .slider-navigation {
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: flex-start;
+        gap: 1rem;
+    }
 
-  .responsive-trusted-section .figure-description {
-    font-size: 3rem;
-    line-height: 1.4;
-  }
-
-  .responsive-trusted-section .slider-navigation {
-    margin-bottom: 2rem;
-    display: flex;
-    justify-content: flex-start;
-    gap: 1rem;
-  }
-
-  .responsive-trusted-section .slider-navigation button {
-    color: white;
-    border: none;
-  }
+    .responsive-trusted-section .slider-navigation button {
+        color: white;
+        border: none;
+    }
 }
 
 /* ------------ responsive-trusted-section end ------------------- */
 
 /* ------------ responsive-strategy-quote start ------------------- */
 @media (max-width: 767px) {
-  .responsive-strategy-quote .wrapper {
-    /* flex-direction: column; */
-    padding: 3rem 1rem;
-    box-sizing: border-box;
-  }
-
-  .responsive-strategy-quote .column-header {
-    width: 100%;
-    padding: 0;
-    text-align: left;
-    margin-bottom: 2rem;
-  }
-
-  .responsive-strategy-quote .column-header h2 {
-    font-size: 4rem;
-    line-height: 1.3;
-    font-weight: 800;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .responsive-strategy-quote .column-header h2 br {
-    display: none;
-  }
-
-  .responsive-strategy-quote .sub-title {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .responsive-strategy-quote .column-header .button {
-    margin-top: 2rem;
-    font-size: 2rem;
-  }
-
-  /* Middle + Right sections (red box) layout for 480px and below */
-  @media (max-width: 480px) {
     .responsive-strategy-quote .wrapper {
-      display: flex;
-      flex-direction: column;
+        /* flex-direction: column; */
+        padding: 3rem 1rem;
+        box-sizing: border-box;
     }
 
-    .responsive-strategy-quote .column-content.border-right,
-    .responsive-strategy-quote .column-content.d-f.f-c.g-p-l.g-p-r {
-      width: 100%;
-      flex-direction: row;
-      display: inline-block;
-      vertical-align: top;
-      padding-top: 0.5rem;
-      padding-right: 0;
-      padding-left: 0;
+    .responsive-strategy-quote .column-header {
+        width: 100%;
+        padding: 0;
+        text-align: left;
+        margin-bottom: 2rem;
     }
 
-    .responsive-strategy-quote .column-content.border-right {
-      border-right: none;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-      padding-bottom: 2rem;
-      margin-bottom: 2rem;
+    .responsive-strategy-quote .column-header h2 {
+        font-size: 4rem;
+        line-height: 1.3;
+        font-weight: 800;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 
-    .responsive-strategy-quote blockquote {
-      font-size: 3rem;
-      line-height: 1.5;
+    .responsive-strategy-quote .column-header h2 br {
+        display: none;
     }
 
-    .responsive-strategy-quote p {
-      font-size: 3rem;
-      line-height: 1.5;
-      margin-top: 1rem;
+    .responsive-strategy-quote .sub-title {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
     }
 
-    .responsive-strategy-quote .quote-person-staff {
-      display: flex;
-      align-items: center;
-      margin-top: 2rem;
+    .responsive-strategy-quote .column-header .button {
+        margin-top: 2rem;
+        font-size: 2rem;
     }
 
-    .responsive-strategy-quote .quote-person-staff figure {
-      margin-right: 1rem;
-      width: 50px;
-      height: 50px;
+    /* Middle + Right sections (red box) layout for 480px and below */
+    @media (max-width: 480px) {
+        .responsive-strategy-quote .wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .responsive-strategy-quote .column-content.border-right,
+        .responsive-strategy-quote .column-content.d-f.f-c.g-p-l.g-p-r {
+            width: 100%;
+            flex-direction: row;
+            display: inline-block;
+            vertical-align: top;
+            padding-top: 0.5rem;
+            padding-right: 0;
+            padding-left: 0;
+        }
+
+        .responsive-strategy-quote .column-content.border-right {
+            border-right: none;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+            padding-bottom: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .responsive-strategy-quote blockquote {
+            font-size: 3rem;
+            line-height: 1.5;
+        }
+
+        .responsive-strategy-quote p {
+            font-size: 3rem;
+            line-height: 1.5;
+            margin-top: 1rem;
+        }
+
+        .responsive-strategy-quote .quote-person-staff {
+            display: flex;
+            align-items: center;
+            margin-top: 2rem;
+        }
+
+        .responsive-strategy-quote .quote-person-staff figure {
+            margin-right: 1rem;
+            width: 50px;
+            height: 50px;
+        }
+
+        .responsive-strategy-quote .quote-person-staff img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .responsive-strategy-quote .quote-who .person {
+            font-size: 1.8rem;
+            font-weight: bold;
+            display: block;
+        }
+
+        .responsive-strategy-quote .quote-who .job-title {
+            font-size: 1.4rem;
+            display: block;
+        }
+
+        .responsive-strategy-quote .button-inline {
+            font-size: 2rem;
+            padding: 1.2rem 0;
+            display: inline-flex;
+        }
+
+        .responsive-strategy-quote .button-inline i {
+            margin-left: 0.5rem;
+        }
     }
 
-    .responsive-strategy-quote .quote-person-staff img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+    /* For 320px and below: stack both red sections vertically */
+    @media (max-width: 320px) {
 
-    .responsive-strategy-quote .quote-who .person {
-      font-size: 1.8rem;
-      font-weight: bold;
-      display: block;
+        .responsive-strategy-quote .column-content.border-right,
+        .responsive-strategy-quote .column-content.d-f.f-c.g-p-l.g-p-r {
+            display: block;
+            width: 100%;
+        }
     }
-
-    .responsive-strategy-quote .quote-who .job-title {
-      font-size: 1.4rem;
-      display: block;
-    }
-
-    .responsive-strategy-quote .button-inline {
-      font-size: 2rem;
-      padding: 1.2rem 0;
-      display: inline-flex;
-    }
-
-    .responsive-strategy-quote .button-inline i {
-      margin-left: 0.5rem;
-    }
-  }
-
-  /* For 320px and below: stack both red sections vertically */
-  @media (max-width: 320px) {
-    .responsive-strategy-quote .column-content.border-right,
-    .responsive-strategy-quote .column-content.d-f.f-c.g-p-l.g-p-r {
-      display: block;
-      width: 100%;
-    }
-  }
 }
 
 /* ------------ responsive-strategy-quote end ------------------- */
 
 /* ------------ responsive-help-section start ------------------- */
 @media (max-width: 767px) {
-  .responsive-help-section .wrapper {
-    flex-direction: column;
-    padding: 3rem 1rem !important;
-    box-sizing: border-box;
-  }
+    .responsive-help-section .wrapper {
+        flex-direction: column;
+        padding: 3rem 1rem !important;
+        box-sizing: border-box;
+    }
 
-  .responsive-help-section .column-header {
-    width: 100% !important;
-    padding: 0 !important;
-    margin-bottom: 2rem;
-    text-align: left;
-    border: none;
-  }
+    .responsive-help-section .column-header {
+        width: 100% !important;
+        padding: 0 !important;
+        margin-bottom: 2rem;
+        text-align: left;
+        border: none;
+    }
 
-  .responsive-help-section .column-header h2 {
-    font-size: 4rem;
-    line-height: 1.3;
-    font-weight: 800;
-    margin: 0 !important;
-  }
+    .responsive-help-section .column-header h2 {
+        font-size: 4rem;
+        line-height: 1.3;
+        font-weight: 800;
+        margin: 0 !important;
+    }
 
-  .responsive-help-section h2.h2_plus::before {
-    height: 3px;
-  }
+    .responsive-help-section h2.h2_plus::before {
+        height: 3px;
+    }
 
-  .responsive-help-section .column-header h2 br {
-    display: none;
-  }
+    .responsive-help-section .column-header h2 br {
+        display: none;
+    }
 
-  .responsive-help-section .column-content {
-    width: 100% !important;
-    padding: 0 !important;
-    margin-bottom: 2.5rem;
-    border: none;
-  }
+    .responsive-help-section .column-content {
+        width: 100% !important;
+        padding: 0 !important;
+        margin-bottom: 2.5rem;
+        border: none;
+    }
 
-  .responsive-help-section .column-content h3 {
-    font-size: 3rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-  }
+    .responsive-help-section .column-content h3 {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
 
-  .responsive-help-section ul.link-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
+    .responsive-help-section ul.link-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
 
-  .responsive-help-section ul.link-list li.link-item {
-    font-size: 3rem;
-    line-height: 1.4;
-    padding-bottom: 1.5rem;
-    border-bottom: none;
-  }
+    .responsive-help-section ul.link-list li.link-item {
+        font-size: 3rem;
+        line-height: 1.4;
+        padding-bottom: 1.5rem;
+        border-bottom: none;
+    }
 
-  .responsive-help-section ul.link-list li.link-item a {
-    display: inline-flex;
-    align-items: center;
-    gap: 1rem;
-    text-decoration: none;
-  }
+    .responsive-help-section ul.link-list li.link-item a {
+        display: inline-flex;
+        align-items: center;
+        gap: 1rem;
+        text-decoration: none;
+    }
 
-  .responsive-help-section ul.link-list li.link-item span {
-    font-size: 3rem;
-  }
+    .responsive-help-section ul.link-list li.link-item span {
+        font-size: 3rem;
+    }
 
-  .responsive-help-section ul.link-list li.link-item i {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-  }
+    .responsive-help-section ul.link-list li.link-item i {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-  .responsive-help-section ul.link-list li.link-item i img {
-    width: 2rem;
-    height: 2rem;
-    object-fit: contain;
-    display: block;
-  }
+    .responsive-help-section ul.link-list li.link-item i img {
+        width: 2rem;
+        height: 2rem;
+        object-fit: contain;
+        display: block;
+    }
 }
 
 /* Stack the two content columns vertically on ≤ 320px */
 @media (max-width: 320px) {
-  .responsive-help-section .column-content {
-    width: 100%;
-    display: block;
-  }
+    .responsive-help-section .column-content {
+        width: 100%;
+        display: block;
+    }
 }
 
 /* ------------ responsive-help-section end ------------------- */
@@ -463,21 +451,18 @@
 /* Drawer styling for mobile */
 .drawer-menu {
   position: fixed;
-  top: 0;
-  right: -100vw;
+  top: 0; right: -100vw;
   width: 90vw;
   max-width: 380px;
   height: 100vh;
-  background: var(--midnight-sky, #13213b);
-  box-shadow: -3px 0 24px 0 rgba(0, 0, 0, 0.2);
-  transition: right 0.35s cubic-bezier(0.85, 0, 0.15, 1);
+  background: var(--midnight-sky, #13213B);
+  box-shadow: -3px 0 24px 0 rgba(0,0,0,0.2);
+  transition: right .35s cubic-bezier(.85,0,.15,1);
   z-index: 1999;
   padding: 2rem 1.2rem;
   flex-direction: column;
 }
-.drawer-menu.open {
-  right: 0;
-}
+.drawer-menu.open { right: 0; }
 .drawer-menu .close-btn {
   display: block;
   background: none;
@@ -497,14 +482,10 @@
   padding: 0 2.5vw;
 }
 @media (max-width: 1440px) {
-  .top-header-wrapper {
-    padding: 0 1.8vw;
-  }
+  .top-header-wrapper { padding: 0 1.8vw; }
 }
 @media (max-width: 1024px) {
-  .top-header-wrapper {
-    padding: 0 1.2vw;
-  }
+  .top-header-wrapper { padding: 0 1.2vw; }
 }
 .top-header-bar nav,
 .top-header-bar .secondary-header-menu,
@@ -517,67 +498,39 @@
 
 /* 1300px: shrink logo, gap, font size, button */
 @media (max-width: 1300px) {
-  .responsive-growing-wealth-header .wrapper {
-    padding: 0 2vw;
-  }
-  .responsive-growing-wealth-header .site-brand img {
-    max-width: 140px;
-  }
-  .responsive-growing-wealth-header .navbar .nav-link {
-    font-size: 1.07rem;
-  }
-  .responsive-growing-wealth-header .button {
-    font-size: 1.03rem;
-    padding: 1.05rem 1.2rem;
-  }
+  .responsive-growing-wealth-header .wrapper { padding: 0 2vw; }
+  .responsive-growing-wealth-header .site-brand img { max-width: 140px; }
+  .responsive-growing-wealth-header .navbar .nav-link { font-size: 1.07rem; }
+  .responsive-growing-wealth-header .button { font-size: 1.03rem; padding: 1.05rem 1.2rem; }
 }
 
 /* 1200px: even more compact, still horizontal */
 @media (max-width: 1200px) {
-  .responsive-growing-wealth-header .wrapper {
-    padding: 0 1.1vw;
-  }
-  .responsive-growing-wealth-header .navbar .nav-group {
-    gap: 2vw;
-  }
+  .responsive-growing-wealth-header .wrapper { padding: 0 1.1vw; }
+  .responsive-growing-wealth-header .navbar .nav-group { gap: 2vw; }
   .responsive-growing-wealth-header .navbar .nav-link {
     font-size: 1.01rem;
-    padding-left: 0.6vw;
-    padding-right: 0.6vw;
+    padding-left: 0.6vw; padding-right: 0.6vw;
   }
 }
 
 /* 1024px: compact but keep horizontal nav, logo shrinks */
 @media (max-width: 1024px) {
-  .responsive-growing-wealth-header {
-    font-size: 2.5rem !important;
-  }
-  .responsive-growing-wealth-header .wrapper {
-    padding: 0 0.8vw;
-  }
-  .responsive-growing-wealth-header .navbar .nav-group {
-    gap: 1vw;
-  }
+  .responsive-growing-wealth-header { font-size:2.5rem !important; }
+  .responsive-growing-wealth-header .wrapper { padding: 0 0.8vw; }
+  .responsive-growing-wealth-header .navbar .nav-group { gap: 1vw; }
   .responsive-growing-wealth-header .navbar .nav-link {
     font-size: 1.56rem !important;
-    padding-left: 0.4vw;
-    padding-right: 0.4vw;
+    padding-left: 0.4vw; padding-right: 0.4vw;
   }
-  .responsive-growing-wealth-header .site-brand img {
-    max-width: 180px;
-  }
-  .responsive-growing-wealth-header .button {
-    font-size: 1.5rem !important;
-    padding: 0.88rem 2rem !important;
-  }
+  .responsive-growing-wealth-header .site-brand img { max-width: 180px; }
+  .responsive-growing-wealth-header .button { font-size: 1.5rem !important; padding: 0.88rem 2rem !important; }
 }
 
 /* 900px: squeeze logo/button more if needed (optional) */
 @media (max-width: 900px) {
-  .responsive-growing-wealth-header .site-brand img {
-    max-width: 100px;
-  }
-  .responsive-growing-wealth-header .button {
+  .responsive-growing-wealth-header .site-brand img { max-width: 100px; }
+   .responsive-growing-wealth-header .button {
     font-size: 1.75rem !important;
     padding: 1rem 2rem !important;
     white-space: nowrap;
@@ -642,49 +595,46 @@
     order: 99; /* ensures it's last in the flex row */
   }
 
-  .top-header-wrapper nav > ul > li > a {
+  .top-header-wrapper nav>ul>li>a{
     font-size: 1.5rem !important;
   }
 
-  .drawer-menu .mobile-nav .nav-link,
-  .drawer-menu .mobile-nav > ul > li > a {
-    font-size: 2.5rem !important;
-    padding-left: 10px !important;
-  }
-  .drawer-menu .mobile-secondary-nav a {
+      .drawer-menu .mobile-nav .nav-link, .drawer-menu .mobile-nav > ul > li > a {
+        font-size: 2.5rem !important;
+        padding-left: 10px !important;
+    }
+    .drawer-menu .mobile-secondary-nav a {
     color: #c3cfd8;
     font-size: 1.5rem !important;
     font-weight: 400;
     padding: 1rem 0;
     padding-left: 10px !important;
     transition: color 0.15s;
-  }
 }
+}
+
 
 /* 480px and below: font and logo even smaller, drawer 99vw */
 @media (max-width: 480px) {
-  .responsive-growing-wealth-header .navbar .nav-link {
-    font-size: 2.75rem !important;
-  }
-  .responsive-growing-wealth-header .site-brand {
-    width: 160px;
-  }
-  .top-header-wrapper nav > ul > li > a {
+  .responsive-growing-wealth-header .navbar .nav-link{ font-size: 2.75rem !important; }
+  .responsive-growing-wealth-header .site-brand { width: 160px; }
+  .top-header-wrapper nav>ul>li>a{
     font-size: 1.75rem !important;
   }
-  .responsive-growing-wealth-header .wrapper {
+    .responsive-growing-wealth-header .wrapper {
     flex-direction: row !important;
     align-items: center !important;
     padding: 3rem 0.5rem;
     gap: 0.5rem;
   }
-  .responsive-growing-wealth-header .button {
+   .responsive-growing-wealth-header .button {
     font-size: 3rem !important;
     padding: 1rem 2rem !important;
     white-space: nowrap;
     margin-right: 0.5rem;
   }
 }
+
 
 /* Column layout for navs inside drawer */
 .drawer-menu .mobile-nav,
@@ -697,7 +647,7 @@
 }
 
 .drawer-menu .mobile-nav {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  border-bottom: 1px solid rgba(255,255,255,0.07);
   padding-bottom: 1.2rem;
 }
 
@@ -716,17 +666,17 @@
 }
 .drawer-menu .mobile-nav .nav-link:hover,
 .drawer-menu .mobile-nav > ul > li > a:hover {
-  color: var(--apple-green, #73e59d);
+  color: var(--apple-green, #73E59D);
 }
 
 /* Submenus (dropdown-menu columns) */
 .drawer-menu .menu-column {
   margin: 0.5rem 0 1.5rem 0.8rem;
   padding: 0.6rem 0;
-  border-left: 2px solid var(--apple-green, #73e59d);
+  border-left: 2px solid var(--apple-green, #73E59D);
 }
 .drawer-menu .menu-column .nav-section-header .nav-link {
-  color: var(--apple-green, #73e59d);
+  color: var(--apple-green, #73E59D);
   font-size: 1.09rem;
   font-weight: bold;
   padding: 0 0 0.5rem 0;
@@ -745,7 +695,7 @@
   transition: color 0.18s;
 }
 .drawer-menu .menu-column .link-item a:hover {
-  color: var(--apple-green, #73e59d);
+  color: var(--apple-green, #73E59D);
   opacity: 1;
 }
 
@@ -765,7 +715,7 @@
   transition: color 0.15s;
 }
 .drawer-menu .mobile-secondary-nav a:hover {
-  color: var(--apple-green, #73e59d);
+  color: var(--apple-green, #73E59D);
 }
 
 /* Responsive for drawer (for smaller mobile screens) */
@@ -797,6 +747,67 @@
     max-width: 230px;
   }
 }
+
+/* ----- Responsive: Building Wealth That Lasts ----- */
+
+@media (max-width: 1200px) {
+  .responsive-wealth-section .wrapper {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  .responsive-wealth-section .column-header h2 {
+    font-size: 3.2rem;
+  }
+
+    .responsive-wealth-section p {
+    font-size: 1.25rem !important;
+    margin-bottom: 1.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .responsive-wealth-section .wrapper {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  .responsive-wealth-section .column-header h2 {
+    font-size: 3.75rem !important;
+  }
+
+    .responsive-wealth-section p {
+    font-size: 1.5rem !important;
+    margin-bottom: 1.4rem;
+  }
+}
+
+@media (max-width: 468px) {
+  .responsive-wealth-section .wrapper {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+  .responsive-wealth-section .wrapper .column .column-header  {
+    padding: 1rem 0 !important;
+  }
+  .responsive-wealth-section .column {
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+    padding-top: 3.75rem !important;
+    text-align: left !important;
+  }
+  .responsive-wealth-section .column-header {
+    margin-bottom: 1.2rem;
+  }
+  .responsive-wealth-section .column-header h2 {
+    font-size: 5.5rem !important;
+  }
+  .responsive-wealth-section p {
+    font-size: 1.75rem !important;
+    margin-bottom: 1.4rem;
+  }
+}
+
 /* ----- Responsive: Strategy That Grows With You Section ----- */
 
 @media (max-width: 1200px) {
@@ -843,13 +854,13 @@
     text-align: left !important;
   }
   .responsive-strategy-section .column-content p {
-    margin-top: 0 !important;
+    margin-top:  0 !important;
   }
   .responsive-strategy-section figure img {
     max-width: 100%;
     height: auto;
   }
-  .responsive-strategy-section figure {
+  .responsive-strategy-section figure  {
     margin-top: 0 !important;
   }
 }
@@ -898,7 +909,7 @@
     padding-right: 2vw;
   }
   .responsive-strategy-section2 .wrapper .sub-title {
-    display: flex;
+   display: flex;
   }
   .responsive-strategy-section2 .column-header h2 {
     font-size: 3.5rem !important;
@@ -917,10 +928,10 @@
   .responsive-strategy-section2 .column-content ol {
     padding-left: 2rem !important;
   }
-  .responsive-strategy-section2 .column-content {
+  .responsive-strategy-section2 .column-content  {
     padding: 2rem;
   }
-  .responsive-strategy-section2 .column-content ul li {
+  .responsive-strategy-section2 .column-content ul li{
     font-size: 1.75rem !important;
   }
 }
@@ -947,7 +958,7 @@
     gap: 0rem;
   }
 }
-/* ---------------------------Driving result------------------------------ */
+ /* ---------------------------Driving result------------------------------ */
 
 @media (max-width: 1024px) {
   .responsive-driving-results .wrapper {
@@ -1032,7 +1043,7 @@
   .responsive-driving-results .wrapper {
     padding: 2.5rem 1rem;
   }
-  .responsive-driving-results .wrapper .column .column-content p {
+  .responsive-driving-results .wrapper .column .column-content  p{
     font-size: 3.6rem !important;
   }
   .responsive-driving-results .wrapper {
@@ -1055,3 +1066,8 @@
     font-size: 2.1rem;
   }
 }
+
+
+
+
+
