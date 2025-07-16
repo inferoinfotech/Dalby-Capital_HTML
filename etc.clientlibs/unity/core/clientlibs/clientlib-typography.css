@@ -1,9 +1,8 @@
-
 /* FONT 01 - Main Titles */
 @font-face {
     font-family: 'Grifo';
     src: url('../../../aaapwa/clientlibs/typography/GrifoTesteM-Bold.woff2') format('woff2'),
-    url('../../../aaapwa/clientlibs/typography/GrifoTesteM-Bold.woff') format('woff');
+        url('../../../aaapwa/clientlibs/typography/GrifoTesteM-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -12,7 +11,7 @@
 @font-face {
     font-family: 'Benton Sans';
     src: url('../../../aaapwa/clientlibs/typography/BentonSans-Book.woff2') format('woff2'),
-    url('../../../aaapwa/clientlibs/typography/BentonSans-Book.woff') format('woff');
+        url('../../../aaapwa/clientlibs/typography/BentonSans-Book.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -143,16 +142,24 @@ h2.h2_plus.h2_jumbo.padding-extended {
     color: var(--white);
 }
 
-.td-n span { text-decoration: none !important; }
+.td-n span {
+    text-decoration: none !important;
+}
 
 footer p.sub-title {
     color: var(--overcast);
-    font-size:.85rem;
+    font-size: .85rem;
 }
 
-footer p { font-size: .9rem; line-height: 2; }
+footer p {
+    font-size: .9rem;
+    line-height: 2;
+}
 
-h3.border-top { position: relative; padding-top: 5rem; }
+h3.border-top {
+    position: relative;
+    padding-top: 5rem;
+}
 
 h3.border-top::before {
     content: '';
@@ -164,7 +171,10 @@ h3.border-top::before {
     width: 5rem;
 }
 
-h3.border-top-decreased { position: relative; padding-top: 3.4rem; }
+h3.border-top-decreased {
+    position: relative;
+    padding-top: 3.4rem;
+}
 
 h3.border-top::before,
 h3.border-top-decreased::before {
@@ -226,9 +236,11 @@ h6 {
 .b-dark .h2 {
     color: var(--white);
 }
+
 .compliance-legal p:not(:last-child) {
     margin-bottom: 2rem;
 }
+
 h5 {
     font-size: 1.4rem;
     margin-top: -1.5rem;
@@ -236,7 +248,9 @@ h5 {
     margin-bottom: 3rem;
 }
 
-.l-h-2-1 { line-height:2.1; }
+.l-h-2-1 {
+    line-height: 2.1;
+}
 
 .white-top h1 {
     color: var(--blue-void);
@@ -245,4 +259,52 @@ h5 {
 .white-top .hero-content p {
     color: var(--blue-void);
     width: 100%;
+}
+
+
+@media (max-width: 767px) {
+
+    h2,
+    h2.h2_plus {
+        font-size: 4rem;
+    }
+
+    p,
+    .hero-content p,
+    .sub-title,
+    footer p,
+    footer p.sub-title {
+        font-size: 2.5rem;
+    }
+
+    h1 {
+        font-size: 7.014rem;
+    }
+
+    h3,
+    h4,
+    h5 {
+        font-size: 4.2rem;
+    }
+
+    h6,
+    .h2.reduce_size {
+        font-size: 3rem;
+    }
+
+    .h2 {
+        font-size: 2.856rem;
+    }
+
+    .h2.plus_size {
+        font-size: 4.284rem;
+    }
+
+    .h2.reduce_size {
+        font-size: 3.375rem;
+    }
+
+    a.h3.h3_medium {
+        font-size: 4.65rem;
+    }
 }

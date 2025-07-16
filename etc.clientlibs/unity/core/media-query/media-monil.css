@@ -58,7 +58,7 @@
   .responsive-help-section .link-list .link-item a span {
 
     /* increased from 1.1rem */
-
+    font-size: 2.5rem;
     color: var(--blue-void);
   }
 
@@ -82,7 +82,6 @@
 
 @media (max-width: 768px) {
   .responsive-rpt {
-    justify-content: start !important;
     padding-left: 2rem;
     padding-right: 2rem;
   }
@@ -103,6 +102,10 @@
 
   .responsive-rpt .column-header .m-t-12 {
     margin-top: 3rem;
+  }
+
+  .responsive-rpt .column-header a {
+    font-size: 2rem;
   }
 
   .responsive-rpt h2 {
@@ -137,7 +140,7 @@
 
   .responsive-rpt .column-content p,
   .responsive-rpt .rpt-desc {
-
+    font-size: 2rem !important;
     line-height: 1.4;
     margin: 0 0 1.5rem 0;
 
@@ -151,7 +154,9 @@
     height: auto;
   }
 
-  .responsive-rpt .rpt-slider .sub-title span {}
+  .responsive-rpt .rpt-slider .sub-title span {
+    font-size: 4rem;
+  }
 
   .responsive-rpt .rpt-slider .key-figure {}
 
@@ -212,6 +217,11 @@
 /* ==== RESPONSIVE: Why Us Section ==== */
 /* ------------ responsive-why-us start ------------------- */
 @media (max-width: 768px) {
+  .responsive-why-us {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .responsive-why-us .rwu-wrapper {
     flex-direction: column;
     padding: 2rem 0;
@@ -252,7 +262,7 @@
   }
 
   .responsive-why-us .rwu-button {
-
+    font-size: 2rem;
     padding: 1.2rem 2.5rem;
     margin-top: 1.3rem;
   }
@@ -286,8 +296,7 @@
   }
 
   .responsive-why-us .rwu-list-title {
-
-
+    font-size: 2rem;
     margin: 1.5rem 0;
     text-align: left;
   }
@@ -299,7 +308,8 @@
   }
 
   .responsive-why-us .rwu-ul li {
-
+    font-size: 2rem;
+    font-weight: 500;
     margin-bottom: 1rem;
     padding-left: 1.8rem;
     position: relative;
@@ -310,22 +320,16 @@
   .responsive-why-us .rwu-ul li::before {
     content: "•";
     position: absolute;
-    left: 0;
-    top: 0.2rem;
+    top: 2px !important;
+    width: 1.5rem !important;
+    height: 1.5rem !important;
     color: var(--apple-green, #73E59D);
-
     line-height: 1;
   }
 }
 
 /* Extra small screens ≤ 400px: scale font a bit smaller for fit */
 @media (max-width: 400px) {
-  .responsive-why-us .rwu-title {}
-
-  .responsive-why-us .rwu-list-title {}
-
-  .responsive-why-us .rwu-paragraph p,
-  .responsive-why-us .rwu-ul li {}
 
   .responsive-why-us .rwu-button {
 
@@ -337,7 +341,7 @@
 
 @media (max-width: 375px) {
   .responsive-why-us .wrapper {
-    padding: 2.2rem 1rem;
+    /* padding: 2.2rem 1rem; */
   }
 
   .responsive-why-us .rwu-title {
@@ -374,7 +378,11 @@
     padding-left: 1.7rem;
   }
 
-  .responsive-why-us .rwu-ul li::before {}
+  .responsive-why-us .rwu-ul li::before {
+    top: 2px !important;
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+  }
 }
 
 /* ------------ responsive-why-us end ------------------- */
@@ -437,7 +445,7 @@
   }
 
   .responsive-feature-section .figure-description {
-
+    font-size: 1.8rem !important;
     line-height: 1.48;
     color: var(--white, #fff);
     margin-bottom: 1.8rem;
@@ -521,7 +529,6 @@
   .responsive-feature-section .column-content .button {
 
     margin-top: 1.5rem;
-    padding: 1.6rem 2.7rem;
     border-radius: 2.5rem;
     width: fit-content;
   }
@@ -603,6 +610,11 @@
 
   }
 
+  .responsive-strategy-quote .column-content .button i {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
   /* Middle + Right sections (red box) layout for 480px and below */
   @media (max-width: 480px) {
     .responsive-strategy-quote .wrapper {
@@ -629,7 +641,7 @@
     }
 
     .responsive-strategy-quote blockquote {
-
+      font-size: 1.8rem;
       line-height: 1.5;
     }
 
@@ -647,8 +659,8 @@
 
     .responsive-strategy-quote .quote-person-staff figure {
       margin-right: 1rem;
-      width: 50px;
-      height: 50px;
+      width: 35px;
+      height: 35px;
     }
 
     .responsive-strategy-quote .quote-person-staff img {
@@ -658,13 +670,12 @@
     }
 
     .responsive-strategy-quote .quote-who .person {
-
-
+      font-size: 2.5rem;
       display: block;
     }
 
     .responsive-strategy-quote .quote-who .job-title {
-
+      font-size: 1.5rem;
       display: block;
     }
 
@@ -754,8 +765,8 @@
   }
 
   .responsive-where-next .link-item i {
-    width: 2.5rem !important;
-    height: 2.5rem !important;
+    width: 3.5rem !important;
+    height: 3.5rem !important;
     margin-left: 1.7rem !important;
     transition: transform 0.3s ease !important;
     display: flex !important;
@@ -798,7 +809,6 @@
   }
 
   .responsive-where-next .button {
-    width: 100% !important;
     max-width: 370px;
     padding: 1.7rem 2.5rem !important;
 
@@ -997,7 +1007,7 @@
   }
 
   /* Image: full width at the bottom */
-  .responsive-footer-action figure {
+  .responsive-footer-action.footer-action figure {
     /* width: 100% !important; */
     height: auto !important;
     /* margin: 2rem 0 0 0 !important; */
@@ -1603,11 +1613,13 @@
   }
 
   .rsp-surplus-capital .h2_plus {
-
-
     line-height: 1.12 !important;
     margin: 0 !important;
     padding: 1.5rem 1.5rem 0 1.5rem !important;
+  }
+
+  .column.column-content.w-2-c .h2_plus br {
+    display: none;
   }
 
   .rsp-surplus-capital .column-content:nth-of-type(1) p {
@@ -2088,6 +2100,100 @@
 
 
 /* helping-you-fulfil-your-financial-ambitions page */
+
+/* ----- Responsive: Strategy That Grows With You Section ----- */
+
+@media (max-width: 1200px) {
+  .responsive-strategy-section .wrapper {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+
+  .responsive-strategy-section .column-header h2 {
+    font-size: 3.2rem;
+  }
+
+  .responsive-strategy-section p {
+    margin-bottom: 1.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .responsive-strategy-section .wrapper {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0rem !important;
+  }
+
+  .responsive-strategy-section .column-header h2 {
+    font-size: 3.75rem !important;
+  }
+
+  .responsive-strategy-section p {
+    margin-bottom: 1.4rem;
+  }
+
+  .responsive-strategy-section .columns {
+    flex-direction: column !important;
+    gap: 0 !important;
+    width: 100% !important;
+  }
+
+  .responsive-strategy-section .column-content,
+  .responsive-strategy-section .column {
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 1.5rem !important;
+    padding-bottom: 3rem;
+    text-align: left !important;
+  }
+
+  .responsive-strategy-section .column-content p {
+    margin-top: 0 !important;
+  }
+
+  .responsive-strategy-section figure img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .responsive-strategy-section figure {
+    margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 468px) {
+  .responsive-strategy-section .wrapper {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 1.2rem;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+
+  .responsive-strategy-section .column-header {
+    padding: 1rem 0 !important;
+    margin-bottom: 1.2rem;
+  }
+
+  .responsive-strategy-section .column-header h2 {
+    font-size: 4.5rem !important;
+  }
+
+  .responsive-strategy-section p {
+    margin-bottom: 1.1rem;
+  }
+
+  .responsive-strategy-section .columns {
+    flex-direction: column !important;
+    gap: 1.2rem;
+  }
+}
+
+/* ----- Responsive: Strategies for Different Life Stages (responsive-strategy-section2) ----- */
 
 
 /* rsp-shared-mission start */
@@ -2773,7 +2879,9 @@
   }
 
   .rsp-where-next .column-content a,
-  span {}
+  span {
+    font-size: 2rem;
+  }
 
   .rsp-where-next .link-list {
     margin: 0 !important;
@@ -4130,6 +4238,19 @@
     margin: 0 0 1.5rem 0 !important;
   }
 
+  .rsp-life-stages p {
+    font-size: 3rem;
+  }
+
+  .rsp-life-stages h2 {
+    padding-bottom: 1.5rem;
+  }
+
+  .rsp-life-stages h4 {
+    line-height: normal !important;
+    font-size: 4rem;
+  }
+
   .rsp-life-stages .standard-list {
     padding-left: 2rem !important;
   }
@@ -4150,8 +4271,12 @@
   }
 
   .rsp-life-stages .titles-list li .stage-title {
-
+    font-size: 4.5rem;
     margin-bottom: 0.6rem !important;
+  }
+
+  .rsp-life-stages .titles-list li .stage-p {
+    font-size: 2rem;
   }
 
   /* Remove border right on small screens */
@@ -5001,4 +5126,48 @@
 
     padding: 1rem 1.5rem !important;
   }
+}
+
+/* common */
+.button.button-with-icon {
+  font-size: 2rem;
+}
+
+.button.button-with-icon.button-regular {
+  font-size: 2rem;
+  padding: 1.2rem 2.5rem;
+  margin-top: 1.3rem;
+}
+
+.foot-note.legal-note p {
+  font-size: 1.4rem;
+}
+
+.h2_plus br,
+h2 br {
+  display: none;
+}
+
+h2.h2_plus::before {
+  height: 3px;
+}
+
+.standard-list.bullets.bullets-left li {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  padding-left: 1.8rem;
+  position: relative;
+  line-height: 1.38;
+  word-break: break-word;
+}
+
+.standard-list.bullets.bullets-left li::before {
+  content: "•";
+  position: absolute;
+  top: 2px !important;
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  color: var(--apple-green, #73E59D);
+  line-height: 1;
 }
