@@ -80,7 +80,7 @@
 
 /* --- responsive-rpt start --- */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .responsive-rpt {
         justify-content: start !important;
         padding-left: 2rem;
@@ -217,7 +217,7 @@
 
 /* ==== RESPONSIVE: Why Us Section ==== */
 /* ------------ responsive-why-us start ------------------- */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .responsive-why-us .rwu-wrapper {
         flex-direction: column;
         padding: 2rem 0;
@@ -395,7 +395,7 @@
 
 /* ------------ responsive-why-us end ------------------- */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .responsive-feature-section .wrapper {
         /* display: flex !important; */
         /* flex-direction: column !important; */
@@ -586,7 +586,7 @@
 
 /* ------------ responsive-strategy-quote start ------------------- */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .responsive-strategy-quote .wrapper {
         /* flex-direction: column; */
         padding: 3rem 1rem;
@@ -908,7 +908,7 @@
 
 /* ------------ responsive-footer-action start ------------------- */
 /* clientlib-responsive.css */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .responsive-footer-action {
         padding: 1.5rem;
         padding-top: 0;
@@ -1128,7 +1128,7 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .responsive-business-section .wrapper {
         display: flex !important;
         flex-direction: column !important;
@@ -1327,7 +1327,7 @@
 
 /* ------------ rsp-business-section START ------------------- */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .rsp-business-section .wrapper {
         display: flex !important;
         flex-direction: column !important;
@@ -1537,7 +1537,7 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .rsp-corporate-help .wrapper {
         padding: 2rem;
     }
@@ -1624,7 +1624,7 @@
 /* ------------ rsp-corporate-help end ------------------- */
 
 /* ------------ rsp-surplus-capital start ------------------- */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .rsp-surplus-capital .wrapper {
         display: flex !important;
         flex-direction: column !important;
@@ -1681,7 +1681,7 @@
 
 
 /* ------------ rsp-investment-philosophy start ------------------- */
-/* @media (max-width: 767px) {
+/* @media (max-width: 768px) {
   .rsp-investment-philosophy .wrapper {
     display: flex !important;
     flex-direction: column !important;
@@ -1814,7 +1814,7 @@
 
 
 /* ------------ rsp-collab-relationship start ------------------- */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .rsp-collab-relationship .wrapper {
         display: flex !important;
         flex-direction: column !important;
@@ -1928,7 +1928,7 @@
 
 
 /* ------------ rsp-manage-portfolio  start ------------------- */
-/* @media (max-width: 767px) {
+/* @media (max-width: 768px) {
   .rsp-manage-portfolio .wrapper {
     padding: 3rem;
   }
@@ -2069,7 +2069,7 @@
 }
 
 /* For smaller screens < 768px */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .rsp-investment-approach .wrapper {
         padding: 2rem 1rem !important;
         gap: 2rem !important;
@@ -2142,7 +2142,7 @@
 
 /* rsp-shared-mission start */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   /* Main container wrapper becomes vertical */
   .rsp-shared-mission .wrapper {
     flex-direction: column !important;
@@ -2177,7 +2177,9 @@
     font-size: 1.3rem !important;
     line-height: 1.6 !important;
   }
-
+ .rsp-shared-mission .w-2-c {
+        width: 100% !important;
+    }
   .rsp-shared-mission h4 {
     font-size: 1.7rem !important;
     margin-bottom: 1rem !important;
@@ -2329,7 +2331,7 @@
 
 
 /* ------------ responsive-trusted-section start ------------------- */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .responsive-trusted-section .wrapper {
         flex-direction: column;
         padding: 3rem 0;
@@ -2486,7 +2488,7 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .rsp-investment-impact .sub-title {
         font-size: 2rem !important;
     }
@@ -2661,7 +2663,7 @@
 
 /* rsp-financial-plan start */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .rsp-financial-plan .wrapper {
         display: flex !important;
         flex-direction: column !important;
@@ -2706,6 +2708,9 @@
         margin: 0 !important;
         box-sizing: border-box;
     }
+    .rsp-financial-plan .w-2-c {
+        width: 100% !important;
+    }
 
     /* Remove right border on content columns */
     .rsp-financial-plan .column-content.border-right {
@@ -2727,7 +2732,6 @@
     }
 
     .rsp-financial-plan .button {
-        width: 100% !important;
         max-width: 360px;
         padding: 1.8rem 2.5rem !important;
         font-size: 2rem !important;
@@ -2749,7 +2753,7 @@
 
 /* rsp-where-next start */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 
     .rsp-where-next .wrapper {
         display: flex !important;
@@ -2862,7 +2866,7 @@
 /* Contact Us start */
 
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .rsp-contact-wrapper .wrapper {
         display: flex !important;
         flex-direction: column !important;
@@ -3468,7 +3472,7 @@
 
 /* rsp-legal-privacy */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .rsp-legal-privacy .wrapper {
         display: flex !important;
         flex-direction: column !important;
@@ -3563,7 +3567,7 @@
 
 /* rsp-cookie-policy */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .rsp-cookie-policy .wrapper {
         display: flex !important;
         flex-direction: column !important;
@@ -3657,7 +3661,7 @@
 
 /* rsp-legal-disclaimer start */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .rsp-legal-disclaimer .wrapper {
     display: flex !important;
     flex-direction: column !important;
@@ -3847,7 +3851,7 @@
 
 /* rsp-legal-research */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .rsp-legal-research .wrapper {
     display: flex !important;
     flex-direction: column !important;
@@ -4038,7 +4042,7 @@
 
 
 /* rsp-voice-matters  */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .rsp-voice-matters .wrapper {
     display: flex !important;
     flex-direction: column !important;
@@ -4133,7 +4137,7 @@
 
 
 /* rsp-life-stages start */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .rsp-life-stages .wrapper {
     display: flex !important;
     flex-direction: column !important;
@@ -4213,7 +4217,7 @@
 
 /* a well managed portfolio  */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .responsive-3-column .responsive-3-column-inner {
     flex-direction: column;
     align-items: stretch;
@@ -4265,7 +4269,7 @@
 
 /* invest properly section  */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .responsive-invest-inner {
     flex-direction: column;
     padding: 19px 0;
@@ -4465,7 +4469,7 @@
   }
 }
 /* rsp-why-us */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .rsp-why-us .wrapper {
     display: flex !important;
     flex-direction: column !important;
@@ -4637,7 +4641,7 @@
 
 
 /* rsp-career-purpose */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .rsp-career-purpose .wrapper {
     flex-direction: column !important;
     padding: 3rem 0 !important;
@@ -4690,7 +4694,7 @@
 }
 
 /* rsp-social-impact */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .rsp-social-impact .wrapper {
     flex-direction: column !important;
     padding: 3rem 0 !important;
@@ -4954,7 +4958,7 @@
 
 /* --------- header end ---------- */
 /* --------- footer start ---------- */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   footer .wrapper.d-f.f-r {
     display: flex;
     flex-wrap: wrap;
@@ -4997,3 +5001,55 @@
 }
 
 /* --------- footer end ---------- */
+
+
+@media (max-width: 768px) {
+  .rsp-contact-advice .wrapper {
+    flex-direction: column !important;
+    padding: 3rem;
+    width: 100% !important;
+  }
+
+  .rsp-contact-advice .columns.d-f.f-r.w-f.j-sp-b {
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+
+  .rsp-contact-advice .column {
+    width: 100% !important;
+    margin-bottom: 2rem;
+    border-right: none !important;
+    padding: 0 !important;
+  }
+
+  .rsp-contact-advice .column-header h2.h2_plus {
+    font-size: 3.2rem !important;
+    line-height: 1.2 !important;
+    margin-bottom: 1.2rem !important;
+  }
+
+  .rsp-contact-advice h4.m-t-rm {
+    font-size: 1.8rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .rsp-contact-advice p.m-t-3,
+  .rsp-contact-advice label {
+    font-size: 1.4rem !important;
+    line-height: 1.6 !important;
+  }
+
+  .rsp-contact-advice input[type="text"],
+  .rsp-contact-advice input[type="email"],
+  .rsp-contact-advice input[type="tel"],
+  .rsp-contact-advice select,
+  .rsp-contact-advice textarea {
+    font-size: 1.4rem !important;
+    padding: 0.75rem 1rem !important;
+  }
+
+  .rsp-contact-advice button.button-with-icon {
+    font-size: 1.6rem !important;
+    padding: 1rem 1.5rem !important;
+  }
+}
