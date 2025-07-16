@@ -908,7 +908,7 @@
 /* clientlib-responsive.css */
 @media (max-width: 768px) {
   .responsive-footer-action {
-    padding: 1.5rem;
+    padding: 1.5rem 4rem;
     padding-top: 0;
   }
 
@@ -4861,6 +4861,15 @@
     display: none !important;
   }
 
+  .mobile-menu-button svg {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  #supplemental-navigation a {
+    font-size: 2rem;
+  }
+
   .mobile-menu-button {
     display: block !important;
     cursor: pointer;
@@ -5041,6 +5050,10 @@
     padding-bottom: 2rem;
   }
 
+  .nav-group {
+    align-items: center;
+  }
+
   .navbar .nav-group.f-g.g-r.j-sp-b {
     display: none;
   }
@@ -5185,6 +5198,10 @@
   .rsp-early-talent .slider.statistical-slider .figure-description {
     font-size: 2.5rem;
     width: 100%;
+  }
+
+  .portfoilio-management .slider-navigation {
+    bottom: 3rem !important;
   }
 
   /* common */
