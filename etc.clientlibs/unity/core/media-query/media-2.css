@@ -165,7 +165,9 @@
     font-size: 3.5rem;
   }
 
-  .responsive-rpt .rpt-slider .key-figure {}
+  .responsive-rpt .mh-27 {
+    max-height: 100% !important;
+  }
 
   .responsive-rpt .columns {
     width: 100%;
@@ -180,7 +182,7 @@
   .responsive-rpt .column-figure img {
     width: 100%;
     display: block;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 0.4rem;
   }
 
