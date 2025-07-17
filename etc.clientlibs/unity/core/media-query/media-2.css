@@ -2767,6 +2767,7 @@
   /* Remove right border on content columns */
   .rsp-financial-plan .column-content.border-right {
     border-right: none !important;
+    margin-top: 1.5rem !important;
   }
 
   .rsp-financial-plan .column-content p {
@@ -4346,7 +4347,11 @@
 @media screen and (max-width: 768px) {
   .responsive-invest-inner {
     flex-direction: column;
-    padding: 19px 0;
+    padding: 5rem 0;
+  }
+
+  .responsive-invest-section {
+    border-top: none !important;
   }
 
   .responsive-invest-section .column-header,
@@ -4357,6 +4362,10 @@
     max-width: 100%;
     text-align: left;
     padding: 0 !important;
+  }
+
+  .responsive-invest-section .column-header {
+    margin-bottom: 2rem !important;
   }
 
   .responsive-invest-section .column-figure img {
@@ -4567,6 +4576,10 @@
     width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
+  }
+
+  .rsp-why-us .column-header {
+    margin-bottom: 2rem !important;
   }
 
   .rsp-why-us .h2_plus {
