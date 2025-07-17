@@ -266,7 +266,7 @@ h5 {
 
     h2,
     h2.h2_plus {
-        font-size: 4rem;
+        font-size: 5.5rem;
     }
 
     p,
@@ -274,11 +274,11 @@ h5 {
     .sub-title,
     footer p,
     footer p.sub-title {
-        font-size: 2.5rem;
+        font-size: 4.5rem;
     }
 
     h1 {
-        font-size: 7.014rem;
+        font-size: 8.014rem;
     }
 
     h3,
@@ -293,7 +293,7 @@ h5 {
     }
 
     .h2 {
-        font-size: 2.856rem;
+        font-size: 3rem;
     }
 
     .h2.plus_size {
