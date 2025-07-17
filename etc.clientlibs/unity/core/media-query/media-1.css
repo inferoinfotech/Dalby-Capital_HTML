@@ -2,7 +2,7 @@
 @media (max-width: 767px) {
   .responsive-financial-advice .financial-flex {
     flex-direction: column;
-    padding: 3rem 0;
+    padding: 5rem 0;
     box-sizing: border-box;
   }
 

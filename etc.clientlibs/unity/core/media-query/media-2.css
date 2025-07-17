@@ -6,7 +6,7 @@
 @media (max-width: 768px) {
   .responsive-help-section .wrapper.d-f.f-r {
     align-items: stretch !important;
-    padding: 4rem 0rem !important;
+    padding: 5rem 0rem !important;
   }
 
   .responsive-help-section h2.h2_plus br {
@@ -93,7 +93,7 @@
 
   .responsive-rpt .wrapper {
     flex-direction: column;
-    padding: 3rem 0rem;
+    padding: 5rem 0rem !important;
     box-sizing: border-box;
   }
 
@@ -218,7 +218,7 @@
   }
 
   .responsive-rpt blockquote.statement {
-    font-size: 3rem !important;
+    font-size: 4.5rem !important;
   }
 }
 
@@ -1595,7 +1595,7 @@
   .rsp-surplus-capital .wrapper {
     display: flex !important;
     flex-direction: column !important;
-    padding: 3rem 0 0 !important;
+    padding: 5rem 0 !important;
     margin: 0 !important;
     box-sizing: border-box;
   }
@@ -1791,7 +1791,7 @@
   .rsp-collab-relationship .wrapper {
     display: flex !important;
     flex-direction: column !important;
-    padding: 6.5rem !important;
+    padding: 5rem 6.5rem !important;
     width: 100vw;
     box-sizing: border-box;
     /* gap: 3rem; */
@@ -2020,7 +2020,7 @@
   }
 
   .rsp-investment-approach blockquote.statement {
-    font-size: 3.5rem !important;
+    font-size: 4.5rem !important;
     line-height: 1.5 !important;
     margin: 1.5rem 0 !important;
     color: #16323b;
@@ -2267,7 +2267,7 @@
 @media (max-width: 768px) {
   .rsp-get-there .wrapper {
     flex-direction: column !important;
-    padding: 2.5rem 0em !important;
+    padding: 5rem 0em !important;
   }
 
   .rsp-get-there .column-header {
@@ -2355,7 +2355,7 @@
 
   .rsp-choose-us .column-content p,
   .rsp-choose-us .column-content blockquote {
-    font-size: 3.5rem;
+    font-size: 4rem;
     line-height: 1.6 !important;
     text-align: left !important;
     margin-top: 0;
@@ -2395,7 +2395,7 @@
 @media (max-width: 768px) {
   .responsive-trusted-section .wrapper {
     flex-direction: column;
-    padding: 5rem 0;
+    padding: 5rem 0 !important;
     box-sizing: border-box;
   }
 
@@ -2778,7 +2778,6 @@
   }
 
   .rsp-financial-plan blockquote.statement {
-    font-size: 3.5rem !important;
     margin-top: 0rem !important;
   }
 
@@ -2809,7 +2808,7 @@
   .rsp-where-next .wrapper {
     display: flex !important;
     flex-direction: column !important;
-    padding: 3rem 0 !important;
+    padding: 5rem 0 !important;
     margin: 0 !important;
     box-sizing: border-box;
   }
@@ -2828,10 +2827,11 @@
 
   .rsp-where-next .m-t-4-5 {
     margin-top: 2rem !important;
+    font-size: 4.5rem;
   }
 
   .rsp-where-next .m-t-inline {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     margin-top: 1rem !important;
   }
 
@@ -3344,7 +3344,7 @@
   .rsp-legal-compliance .wrapper {
     display: flex !important;
     flex-direction: column !important;
-    padding: 3rem 0 !important;
+    padding: 5rem 0 !important;
     box-sizing: border-box;
   }
 
@@ -4378,7 +4378,7 @@
   }
 
   .responsive-invest-section blockquote.statement {
-    font-size: 3rem !important;
+    font-size: 4.5rem !important;
     line-height: 1.4;
     margin-bottom: 1.5rem !important;
     width: 100% !important;
@@ -5300,7 +5300,8 @@
   }
 
   blockquote.statement {
-    font-size: 3rem !important;
+    font-size: 4.5rem !important;
+    line-height: normal !important;
   }
 
   h4 br {
