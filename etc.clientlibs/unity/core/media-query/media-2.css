@@ -357,7 +357,6 @@
     padding: 1rem 1.6rem;
   }
 
-  .responsive-why-us .rwu-subtitle {}
 }
 
 @media (max-width: 375px) {
@@ -884,7 +883,6 @@
     margin-bottom: 1.1rem !important;
   }
 
-  .responsive-where-next .link-item a {}
 
   .responsive-where-next .h2_plus {
 
@@ -1286,10 +1284,6 @@
     height: 1.8rem !important;
     display: inline-block !important;
   }
-
-  .responsive-business-section p {}
-
-  .responsive-business-section H3 {}
 
   .responsive-business-section .contact-email-label {
 
@@ -2574,11 +2568,6 @@
 }
 
 @media (max-width: 768px) {
-  .rsp-investment-impact .sub-title {}
-
-  .rsp-investment-impact h2 {}
-
-  .rsp-investment-impact .column-content p {}
 
   .rsp-investment-impact .colum.column-figure.w-f.g-p-l.g-p-r {
     padding-left: 0 !important;
@@ -2614,7 +2603,6 @@
   .rsp-protect-grow .sub-title {
 
     margin-bottom: 1rem !important;
-    color: #16323b;
 
   }
 
@@ -2770,8 +2758,6 @@
   }
 
   .rsp-financial-plan .sub-title {
-
-    color: #16323b;
     margin-bottom: 1rem !important;
 
   }
@@ -2937,7 +2923,6 @@
     height: 1.8rem;
   }
 
-  .rsp-where-next h4 {}
 }
 
 
@@ -4527,7 +4512,6 @@
 
   }
 
-  .responsive-philosophy-section .column-header .sub-title {}
 
   .responsive-philosophy-section .column-header p {
 
@@ -4985,8 +4969,6 @@
     visibility: visible;
     padding-bottom: 1rem;
   }
-
-  .submenu li {}
 
   .submenu-label {
     font-size: 4rem;
