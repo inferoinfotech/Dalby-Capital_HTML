@@ -164,7 +164,7 @@
   }
 
   .responsive-rpt .column-content a {
-    margin-top: 1rem;
+    margin: 3rem 0 !important;
   }
 
   .responsive-rpt .rpt-slider .sub-title {
@@ -1330,11 +1330,11 @@
   }
 
   .rsp-business-section p {
-    margin: 1rem 0 !important;
+    margin: 3rem 0 !important;
   }
 
   .rsp-business-section h4 {
-    margin: 1rem;
+    margin: 4rem 0;
     font-size: 4.5rem;
   }
 
@@ -1577,7 +1577,7 @@
   }
 
   .rsp-corporate-help .link-item span {
-    font-size: 3.3rem;
+    font-size: 3.8rem;
     padding-bottom: 5px !important;
   }
 
@@ -1998,7 +1998,7 @@
   }
 
   .rsp-investment-approach h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     line-height: 1.1 !important;
   }
 
@@ -2444,7 +2444,7 @@
   }
 
   .responsive-trusted-section .column-content p {
-    margin-top: 0;
+    margin-top: 0 !important;
 
     line-height: 1.4;
   }
@@ -4316,7 +4316,7 @@
 
   .responsive-3-column .column-content,
   p {
-    padding: 0 0 5px 0 !important;
+    padding: 0 0 9px 0 !important;
     margin: 0 !important;
   }
 
@@ -4358,7 +4358,7 @@
     width: 100% !important;
     max-width: 100%;
     text-align: left;
-    padding: 0 !important;
+    padding: 0 0 9px 0 !important;
   }
 
   .responsive-invest-section .column-header {
@@ -5241,8 +5241,8 @@
 
   .button.button-with-icon.button-regular {
     font-size: 3rem;
-    padding: 1.2rem 2.5rem;
-    margin-top: 1.3rem;
+    padding: 1.8rem 2.8rem !important;
+    margin-top: 1.3rem 0rem !important;
     width: fit-content !important;
   }
 
