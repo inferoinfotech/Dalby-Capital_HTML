@@ -1542,9 +1542,7 @@
 
   /* Sub headings */
   .rsp-corporate-help h3 {
-
-
-    margin-bottom: 2rem !important;
+    margin: 4rem 0!important;
     color: #16323b;
   }
 
@@ -2339,7 +2337,7 @@
   }
 
   .rsp-choose-us h2 {
-    padding-bottom: 1.5rem !important;
+    padding: 2.5rem 0 !important;
     line-height: 1.1 !important;
   }
 
@@ -2355,7 +2353,7 @@
 
   .rsp-choose-us .column-content p,
   .rsp-choose-us .column-content blockquote {
-    font-size: 4rem;
+    font-size: 4.5rem !important;
     line-height: 1.6 !important;
     text-align: left !important;
     margin-top: 0;
@@ -2874,7 +2872,7 @@
 
   .rsp-where-next .column-content a,
   span {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .rsp-where-next .link-list {
@@ -2988,9 +2986,9 @@
   }
 
   .rsp-contact-wrapper .card .card-text {
-    font-size: 3rem;
+    font-size: 4rem;
     line-height: 1.4 !important;
-    margin-bottom: 1.5rem !important;
+    margin-bottom: 3.5 !important;
   }
 
   .rsp-contact-wrapper .card .button {
@@ -3017,7 +3015,7 @@
   .rsp-contact-wrapper .form-unit select,
   .rsp-contact-wrapper .form-unit input,
   .rsp-contact-wrapper .form-unit textarea {
-    font-size: 3rem;
+    font-size: 3.3rem;
     padding: 2rem !important;
     border-radius: 12px !important;
   }
@@ -3394,7 +3392,7 @@
 
   .rsp-legal-compliance .legal-section ul {
     padding-left: 1.6rem !important;
-    margin-top: 1rem !important;
+    margin: 3rem 0 !important;
   }
 
   .rsp-legal-compliance .legal-section ul li {
@@ -3487,7 +3485,6 @@
   }
 
   .rsp-legal-framework .legal-section ul {
-    padding-left: 1.6rem !important;
     margin-top: 1rem !important;
   }
 
@@ -3569,8 +3566,7 @@
   }
 
   .rsp-legal-privacy .legal-section ul {
-    padding-left: 1.6rem !important;
-    margin-top: 1rem !important;
+    margin: 2rem 0 !important;
   }
 
   .rsp-legal-privacy .legal-section ul li {
@@ -3676,8 +3672,7 @@
   }
 
   .rsp-cookie-policy .legal-section ul {
-    padding-left: 1.6rem !important;
-    margin-top: 1rem !important;
+    margin: 2rem 0 !important;
   }
 
   .rsp-cookie-policy .legal-section ul li {
@@ -3758,8 +3753,7 @@
   }
 
   .rsp-legal-disclaimer .legal-section ul {
-    padding-left: 1.6rem !important;
-    margin-top: 1rem !important;
+    margin: 2rem 0!important;
   }
 
   .rsp-legal-disclaimer .legal-section ul li {
@@ -3853,8 +3847,7 @@
   }
 
   .rsp-accessibility-section .legal-section ul {
-    padding-left: 1.6rem !important;
-    margin-top: 1rem !important;
+    margin: 2rem 0!important;
   }
 
   .rsp-accessibility-section .legal-section ul li {
@@ -3948,8 +3941,7 @@
   }
 
   .rsp-legal-research .legal-section ul {
-    padding-left: 1.8rem !important;
-    margin-top: 1.2rem !important;
+    margin: 2rem 0 !important;
   }
 
   .rsp-legal-research .legal-section ul li {
@@ -4044,8 +4036,7 @@
   }
 
   .rsp-modern-slavery .legal-section ul {
-    padding-left: 1.8rem !important;
-    margin-top: 1.2rem !important;
+    margin: 2rem 0!important;
   }
 
   .rsp-modern-slavery .legal-section ul li {
@@ -4139,8 +4130,7 @@
   }
 
   .rsp-voice-matters .legal-section ul {
-    padding-left: 1.8rem !important;
-    margin-top: 1.2rem !important;
+    margin: 2rem 0 !important;
   }
 
   .rsp-voice-matters .legal-section ul li {
@@ -5240,9 +5230,9 @@
   }
 
   .button.button-with-icon.button-regular {
-    font-size: 3rem;
+    font-size: 3rem !important;
     padding: 1.8rem 2.8rem !important;
-    margin-top: 1.3rem 0rem !important;
+    margin: 1.3rem 0 !important;
     width: fit-content !important;
   }
 
